@@ -10,105 +10,21 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="Hi，大家好，我是 MH，今天的教程内容是在 Serv00 上安装 x-ui 面板并使用 ，让你的网速飞快 q (≧▽≦q)
+<meta name="description" content="
+**Hi，大家好，我是 MH，今天我们来讲解如何在 Serv00 上安装并使用 x-ui 面板，帮你轻松提升网速，快得让你停不下来！q(≧▽≦q)**
 
-如何安装 x-ui 面板？
-申请端口
-开启管理执行权限
-执行一键脚本安装 x-ui 面板
+### **如何安装 x-ui 面板？**
 
-步骤 1. 申请端口
-登录你帐号对应的 panel 面板
-面板左侧 > Port reservation > 选择 Add port 标签栏 > 勾选 Random > ＋Add
-开放两个 TCP 端口，如 40402 和 40401（端口号可随便填写）
-选择 Port list 标签栏 > 记录你分配到的 TCP 端口号
-步骤 2. 开启管理执行权限
-登录你帐号对应的 panel 面板
-面板左侧 > 选择 Run your own applications 标签栏 > Enabled ; 使其 Status 变成 Enabled 即可
-步骤 3. 执行一键脚本安装 x-ui 面板
-`wget -O x-ui.sh -N --no-check-certificate https://raw.githubusercontent.com/amclubs/am-serv00-x-ui/main/x-ui.sh && chmod +x x-ui.sh && ./x-ui.sh `
-注意：请确保 serv00 两个 TCP 端口开启
-
-脚本会自动安装 x-ui 并配置环境
-选择 1 安装 x-ui 面板
-完成后，面板默认监听在 serv00 添加的第一个端口 40402（如果你是小白同学，中途让你做选择题时，你默认回车就🆗啦）
-如何登陆 x-ui 面板？
-添加域名
-登录 x-ui 面板
-步骤 1. 添加域名
-登录你帐号对应的 panel 面板
-面板左侧 > 选择 WWW.Websites 
-复制 serv00 自带的域名如 athanaag.serv00.net，然后在删除（注意点中间的删除和软件）
-标签栏 > Add New Websites
-Domain 填入复制的域名名字 athanaag.serv00.net
-点击 Advanced settings，将 Website type 中的 PHP 换成 Proxy
-Proxy port 选择面板访问的端口 40402
-然后点击 Add 进行添加
-步骤 2. 登录 x-ui 面板
-然后访问这个域名
-输入默认用户名和密码：admin / admin（建议首次登录后立即更改密码）
-如何配置节点？
-创建节点
-创建节点
-进入 x-ui 面板后选择入站列表
-点击 “+”
-备注和端口填写在 serv00 添加的第二个端口 40401
-传输选择 “ws”
-最后点击添加就完成了
-在详细信息中点击查看，再点击复制链接
-将链接 Ctrl+V 复制到 V2rayN
-总结
-个人觉得还是使用甬哥的脚本才能让 serv00 发挥最大性能，虽说节点的速度一样，但甬哥的更有 Hysteria2 协议，且不用占用域名。">
+1. **申请端口**  
+   首先，登录你的账号，进入对应的面板。">
 <meta property="og:title" content="serv00如何安装x-ui面板并使用">
-<meta property="og:description" content="Hi，大家好，我是 MH，今天的教程内容是在 Serv00 上安装 x-ui 面板并使用 ，让你的网速飞快 q (≧▽≦q)
+<meta property="og:description" content="
+**Hi，大家好，我是 MH，今天我们来讲解如何在 Serv00 上安装并使用 x-ui 面板，帮你轻松提升网速，快得让你停不下来！q(≧▽≦q)**
 
-如何安装 x-ui 面板？
-申请端口
-开启管理执行权限
-执行一键脚本安装 x-ui 面板
+### **如何安装 x-ui 面板？**
 
-步骤 1. 申请端口
-登录你帐号对应的 panel 面板
-面板左侧 > Port reservation > 选择 Add port 标签栏 > 勾选 Random > ＋Add
-开放两个 TCP 端口，如 40402 和 40401（端口号可随便填写）
-选择 Port list 标签栏 > 记录你分配到的 TCP 端口号
-步骤 2. 开启管理执行权限
-登录你帐号对应的 panel 面板
-面板左侧 > 选择 Run your own applications 标签栏 > Enabled ; 使其 Status 变成 Enabled 即可
-步骤 3. 执行一键脚本安装 x-ui 面板
-`wget -O x-ui.sh -N --no-check-certificate https://raw.githubusercontent.com/amclubs/am-serv00-x-ui/main/x-ui.sh && chmod +x x-ui.sh && ./x-ui.sh `
-注意：请确保 serv00 两个 TCP 端口开启
-
-脚本会自动安装 x-ui 并配置环境
-选择 1 安装 x-ui 面板
-完成后，面板默认监听在 serv00 添加的第一个端口 40402（如果你是小白同学，中途让你做选择题时，你默认回车就🆗啦）
-如何登陆 x-ui 面板？
-添加域名
-登录 x-ui 面板
-步骤 1. 添加域名
-登录你帐号对应的 panel 面板
-面板左侧 > 选择 WWW.Websites 
-复制 serv00 自带的域名如 athanaag.serv00.net，然后在删除（注意点中间的删除和软件）
-标签栏 > Add New Websites
-Domain 填入复制的域名名字 athanaag.serv00.net
-点击 Advanced settings，将 Website type 中的 PHP 换成 Proxy
-Proxy port 选择面板访问的端口 40402
-然后点击 Add 进行添加
-步骤 2. 登录 x-ui 面板
-然后访问这个域名
-输入默认用户名和密码：admin / admin（建议首次登录后立即更改密码）
-如何配置节点？
-创建节点
-创建节点
-进入 x-ui 面板后选择入站列表
-点击 “+”
-备注和端口填写在 serv00 添加的第二个端口 40401
-传输选择 “ws”
-最后点击添加就完成了
-在详细信息中点击查看，再点击复制链接
-将链接 Ctrl+V 复制到 V2rayN
-总结
-个人觉得还是使用甬哥的脚本才能让 serv00 发挥最大性能，虽说节点的速度一样，但甬哥的更有 Hysteria2 协议，且不用占用域名。">
+1. **申请端口**  
+   首先，登录你的账号，进入对应的面板。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://liuyewen111.github.io/post/serv00-ru-he-an-zhuang-x-ui-mian-ban-bing-shi-yong.html">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/Meekdai/meekdai.github.io/logo64.jpg">
@@ -137,7 +53,17 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     body {padding: 8px;}
     .postTitle{font-size:24px;}
 }
-
+.copy-feedback {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    color: var(--color-fg-on-emphasis);
+    background-color: var(--color-fg-muted);
+    border-radius: 3px;
+    padding: 5px 8px;
+    font-size: 12px;
+}
 </style>
 
 
@@ -169,52 +95,59 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>Hi，大家好，我是 MH，今天的教程内容是在 Serv00 上安装 x-ui 面板并使用 ，让你的网速飞快 q (≧▽≦q)</p>
-<p>如何安装 x-ui 面板？<br>
-申请端口<br>
-开启管理执行权限<br>
-执行一键脚本安装 x-ui 面板</p>
-<p>步骤 1. 申请端口<br>
-登录你帐号对应的 panel 面板<br>
-面板左侧 &gt; Port reservation &gt; 选择 Add port 标签栏 &gt; 勾选 Random &gt; ＋Add<br>
-开放两个 TCP 端口，如 40402 和 40401（端口号可随便填写）<br>
-选择 Port list 标签栏 &gt; 记录你分配到的 TCP 端口号<br>
-步骤 2. 开启管理执行权限<br>
-登录你帐号对应的 panel 面板<br>
-面板左侧 &gt; 选择 Run your own applications 标签栏 &gt; Enabled ; 使其 Status 变成 Enabled 即可<br>
-步骤 3. 执行一键脚本安装 x-ui 面板<br>
-<code class="notranslate">wget -O x-ui.sh -N --no-check-certificate https://raw.githubusercontent.com/amclubs/am-serv00-x-ui/main/x-ui.sh &amp;&amp; chmod +x x-ui.sh &amp;&amp; ./x-ui.sh </code><br>
-注意：请确保 serv00 两个 TCP 端口开启</p>
-<p>脚本会自动安装 x-ui 并配置环境<br>
-选择 1 安装 x-ui 面板<br>
-完成后，面板默认监听在 serv00 添加的第一个端口 40402（如果你是小白同学，中途让你做选择题时，你默认回车就🆗啦）<br>
-如何登陆 x-ui 面板？<br>
-添加域名<br>
-登录 x-ui 面板<br>
-步骤 1. 添加域名<br>
-登录你帐号对应的 panel 面板<br>
-面板左侧 &gt; 选择 WWW.Websites<br>
-复制 serv00 自带的域名如 athanaag.serv00.net，然后在删除（注意点中间的删除和软件）<br>
-标签栏 &gt; Add New Websites<br>
-Domain 填入复制的域名名字 athanaag.serv00.net<br>
-点击 Advanced settings，将 Website type 中的 PHP 换成 Proxy<br>
-Proxy port 选择面板访问的端口 40402<br>
-然后点击 Add 进行添加<br>
-步骤 2. 登录 x-ui 面板<br>
-然后访问这个域名<br>
-输入默认用户名和密码：admin / admin（建议首次登录后立即更改密码）<br>
-如何配置节点？<br>
-创建节点<br>
-创建节点<br>
-进入 x-ui 面板后选择入站列表<br>
-点击 “+”<br>
-备注和端口填写在 serv00 添加的第二个端口 40401<br>
-传输选择 “ws”<br>
-最后点击添加就完成了<br>
-在详细信息中点击查看，再点击复制链接<br>
-将链接 Ctrl+V 复制到 V2rayN<br>
-总结<br>
-个人觉得还是使用甬哥的脚本才能让 serv00 发挥最大性能，虽说节点的速度一样，但甬哥的更有 Hysteria2 协议，且不用占用域名</p></div>
+<div class="markdown-body" id="postBody"><p><strong>Hi，大家好，我是 MH，今天我们来讲解如何在 Serv00 上安装并使用 x-ui 面板，帮你轻松提升网速，快得让你停不下来！q(≧▽≦q)</strong></p>
+<h3><strong>如何安装 x-ui 面板？</strong></h3>
+<ol>
+<li>
+<p><strong>申请端口</strong><br>
+首先，登录你的账号，进入对应的面板。<br>
+在左侧菜单中找到 <strong>Port reservation</strong>，点击进入后选择 <strong>Add port</strong> 标签页。<br>
+然后，勾选 <strong>Random</strong>，点击 <strong>+Add</strong>。<br>
+我们需要开放两个 TCP 端口，建议使用 40402 和 40401（端口号可以自行选择）。<br>
+接着，切换到 <strong>Port list</strong> 标签页，记录下分配给你的 TCP 端口号。</p>
+</li>
+<li>
+<p><strong>开启管理执行权限</strong><br>
+接下来，在面板左侧选择 <strong>Run your own applications</strong>，并将其状态设置为 <strong>Enabled</strong>，这样就开启了管理执行权限。</p>
+</li>
+<li>
+<p><strong>执行一键脚本安装 x-ui 面板</strong><br>
+现在，使用以下命令来一键安装 x-ui 面板：</p>
+<pre class="notranslate"><code class="notranslate">wget -O x-ui.sh -N --no-check-certificate https://raw.githubusercontent.com/amclubs/am-serv00-x-ui/main/x-ui.sh &amp;&amp; chmod +x x-ui.sh &amp;&amp; ./x-ui.sh
+</code></pre>
+<p>注意：请确保你的 Serv00 已经开启了这两个 TCP 端口。</p>
+<p>执行脚本后，系统会自动安装并配置好 x-ui 面板。<br>
+当安装完成后，x-ui 面板会默认监听在第一个端口（即 40402）。如果你是新手，遇到选择题时，按默认回车即可。</p>
+</li>
+</ol>
+<h3><strong>如何登录 x-ui 面板？</strong></h3>
+<ol>
+<li>
+<p><strong>添加域名</strong><br>
+首先，登录到你的面板。<br>
+在左侧选择 <strong>WWW.Websites</strong>，复制Serv00 自带的域名（例如：athanaag.serv00.net），然后删除中间的“删除”和“软件”部分。<br>
+在标签页中点击 <strong>Add New Websites</strong>。<br>
+在 <strong>Domain</strong> 栏输入你复制的域名（例如：athanaag.serv00.net）。<br>
+点击 <strong>Advanced settings</strong>，将 <strong>Website type</strong> 中的 PHP 改为 <strong>Proxy</strong>，然后在 <strong>Proxy port</strong> 选择你面板使用的端口（例如：40402）。<br>
+完成后点击 <strong>Add</strong> 添加。</p>
+</li>
+<li>
+<p><strong>登录 x-ui 面板</strong><br>
+现在，你可以访问刚刚添加的域名。<br>
+输入默认的用户名和密码：<strong>admin / admin</strong>（建议首次登录后立即更改密码）。</p>
+</li>
+</ol>
+<h3><strong>如何配置节点？</strong></h3>
+<ol>
+<li><strong>创建节点</strong><br>
+进入 x-ui 面板，选择 <strong>入站列表</strong>，点击右上角的 <strong>+</strong> 进行添加。<br>
+填写备注和端口，使用在 Serv00 上添加的第二个端口（例如：40401）。<br>
+传输协议选择 <strong>ws</strong>，然后点击 <strong>添加</strong>。<br>
+在详细信息页面，点击 <strong>查看</strong>，然后复制链接。<br>
+将复制的链接粘贴到 V2rayN 客户端即可。</li>
+</ol>
+<h3><strong>总结</strong></h3>
+<p>个人推荐使用甬哥的脚本来实现 Serv00 的最大性能，虽然节点速度差不多，但甬哥的脚本支持 Hysteria2 协议，且不需要占用域名，效果更佳。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;">转载请注明出处</div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
@@ -239,7 +172,7 @@ if("12/31/2024"!=""){
 </script></div>
 </body>
 <script>
-var IconList={'sun': 'M8 10.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM8 12a4 4 0 100-8 4 4 0 000 8zM8 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V.75A.75.75 0 018 0zm0 13a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 018 13zM2.343 2.343a.75.75 0 011.061 0l1.06 1.061a.75.75 0 01-1.06 1.06l-1.06-1.06a.75.75 0 010-1.06zm9.193 9.193a.75.75 0 011.06 0l1.061 1.06a.75.75 0 01-1.06 1.061l-1.061-1.06a.75.75 0 010-1.061zM16 8a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 0116 8zM3 8a.75.75 0 01-.75.75H.75a.75.75 0 010-1.5h1.5A.75.75 0 013 8zm10.657-5.657a.75.75 0 010 1.061l-1.061 1.06a.75.75 0 11-1.06-1.06l1.06-1.06a.75.75 0 011.06 0zm-9.193 9.193a.75.75 0 010 1.06l-1.06 1.061a.75.75 0 11-1.061-1.06l1.06-1.061a.75.75 0 011.061 0z', 'moon': 'M9.598 1.591a.75.75 0 01.785-.175 7 7 0 11-8.967 8.967.75.75 0 01.961-.96 5.5 5.5 0 007.046-7.046.75.75 0 01.175-.786zm1.616 1.945a7 7 0 01-7.678 7.678 5.5 5.5 0 107.678-7.678z', 'sync': 'M1.705 8.005a.75.75 0 0 1 .834.656 5.5 5.5 0 0 0 9.592 2.97l-1.204-1.204a.25.25 0 0 1 .177-.427h3.646a.25.25 0 0 1 .25.25v3.646a.25.25 0 0 1-.427.177l-1.38-1.38A7.002 7.002 0 0 1 1.05 8.84a.75.75 0 0 1 .656-.834ZM8 2.5a5.487 5.487 0 0 0-4.131 1.869l1.204 1.204A.25.25 0 0 1 4.896 6H1.25A.25.25 0 0 1 1 5.75V2.104a.25.25 0 0 1 .427-.177l1.38 1.38A7.002 7.002 0 0 1 14.95 7.16a.75.75 0 0 1-1.49.178A5.5 5.5 0 0 0 8 2.5Z', 'home': 'M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z', 'github': 'M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z'};
+var IconList={'sun': 'M8 10.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM8 12a4 4 0 100-8 4 4 0 000 8zM8 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V.75A.75.75 0 018 0zm0 13a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 018 13zM2.343 2.343a.75.75 0 011.061 0l1.06 1.061a.75.75 0 01-1.06 1.06l-1.06-1.06a.75.75 0 010-1.06zm9.193 9.193a.75.75 0 011.06 0l1.061 1.06a.75.75 0 01-1.06 1.061l-1.061-1.06a.75.75 0 010-1.061zM16 8a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 0116 8zM3 8a.75.75 0 01-.75.75H.75a.75.75 0 010-1.5h1.5A.75.75 0 013 8zm10.657-5.657a.75.75 0 010 1.061l-1.061 1.06a.75.75 0 11-1.06-1.06l1.06-1.06a.75.75 0 011.06 0zm-9.193 9.193a.75.75 0 010 1.06l-1.06 1.061a.75.75 0 11-1.061-1.06l1.06-1.061a.75.75 0 011.061 0z', 'moon': 'M9.598 1.591a.75.75 0 01.785-.175 7 7 0 11-8.967 8.967.75.75 0 01.961-.96 5.5 5.5 0 007.046-7.046.75.75 0 01.175-.786zm1.616 1.945a7 7 0 01-7.678 7.678 5.5 5.5 0 107.678-7.678z', 'sync': 'M1.705 8.005a.75.75 0 0 1 .834.656 5.5 5.5 0 0 0 9.592 2.97l-1.204-1.204a.25.25 0 0 1 .177-.427h3.646a.25.25 0 0 1 .25.25v3.646a.25.25 0 0 1-.427.177l-1.38-1.38A7.002 7.002 0 0 1 1.05 8.84a.75.75 0 0 1 .656-.834ZM8 2.5a5.487 5.487 0 0 0-4.131 1.869l1.204 1.204A.25.25 0 0 1 4.896 6H1.25A.25.25 0 0 1 1 5.75V2.104a.25.25 0 0 1 .427-.177l1.38 1.38A7.002 7.002 0 0 1 14.95 7.16a.75.75 0 0 1-1.49.178A5.5 5.5 0 0 0 8 2.5Z', 'home': 'M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z', 'github': 'M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z', 'copy': 'M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z', 'check': 'M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z'};
 var utterancesLoad=0;
 
 let themeSettings={
@@ -316,7 +249,70 @@ function iFrameLoading(){
     }
 }
 
+document.addEventListener('DOMContentLoaded', () => {
+    const createClipboardHTML = (codeContent, additionalClasses = '') => `
+        <pre class="notranslate"><code class="notranslate">${codeContent}</code></pre>
+        <div class="clipboard-container position-absolute right-0 top-0 ${additionalClasses}">
+            <clipboard-copy class="ClipboardButton btn m-2 p-0" role="button" style="display: inherit;">
+                <svg height="16" width="16" class="octicon octicon-copy m-2"><path d="${IconList["copy"]}"></path></svg>
+                <svg height="16" width="16" class="octicon octicon-check color-fg-success m-2 d-none"><path d="${IconList["check"]}"></path></svg>
+            </clipboard-copy>
+            <div class="copy-feedback">Copied!</div>
+        </div>
+    `;
 
+    const handleCodeElements = (selector = '') => {
+        document.querySelectorAll(selector).forEach(codeElement => {
+            const codeContent = codeElement.innerHTML;
+            const newStructure = document.createElement('div');
+            newStructure.className = 'snippet-clipboard-content position-relative overflow-auto';
+            newStructure.innerHTML = createClipboardHTML(codeContent);
+
+            const parentElement = codeElement.parentElement;
+            if (selector.includes('highlight')) {
+                parentElement.insertBefore(newStructure, codeElement.nextSibling);
+                parentElement.removeChild(codeElement);
+            } else {
+                parentElement.parentElement.replaceChild(newStructure, parentElement);
+            }
+        });
+    };
+
+    handleCodeElements('pre.notranslate > code.notranslate');
+    handleCodeElements('div.highlight > pre.notranslate');
+
+    let currentFeedback = null;
+    document.querySelectorAll('clipboard-copy').forEach(copyButton => {
+        copyButton.addEventListener('click', () => {
+            const codeContent = copyButton.closest('.snippet-clipboard-content').innerText;
+            const tempTextArea = document.createElement('textarea');
+            tempTextArea.value = codeContent;
+            document.body.appendChild(tempTextArea);
+            tempTextArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempTextArea);
+
+            const copyIcon = copyButton.querySelector('.octicon-copy');
+            const checkIcon = copyButton.querySelector('.octicon-check');
+            const copyFeedback = copyButton.nextElementSibling;
+
+            if (currentFeedback && currentFeedback !== copyFeedback) {currentFeedback.style.display = 'none';}
+            currentFeedback = copyFeedback;
+
+            copyIcon.classList.add('d-none');
+            checkIcon.classList.remove('d-none');
+            copyFeedback.style.display = 'block';
+            copyButton.style.borderColor = 'var(--color-success-fg)';
+
+            setTimeout(() => {
+                copyIcon.classList.remove('d-none');
+                checkIcon.classList.add('d-none');
+                copyFeedback.style.display = 'none';
+                copyButton.style.borderColor = '';
+            }, 2000);
+        });
+    });
+});
 
 </script>
 <script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>

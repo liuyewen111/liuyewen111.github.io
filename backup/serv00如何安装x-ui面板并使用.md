@@ -1,49 +1,51 @@
-Hi，大家好，我是 MH，今天的教程内容是在 Serv00 上安装 x-ui 面板并使用 ，让你的网速飞快 q (≧▽≦q)
 
-如何安装 x-ui 面板？
-申请端口
-开启管理执行权限
-执行一键脚本安装 x-ui 面板
+**Hi，大家好，我是 MH，今天我们来讲解如何在 Serv00 上安装并使用 x-ui 面板，帮你轻松提升网速，快得让你停不下来！q(≧▽≦q)**
 
-步骤 1. 申请端口
-登录你帐号对应的 panel 面板
-面板左侧 > Port reservation > 选择 Add port 标签栏 > 勾选 Random > ＋Add
-开放两个 TCP 端口，如 40402 和 40401（端口号可随便填写）
-选择 Port list 标签栏 > 记录你分配到的 TCP 端口号
-步骤 2. 开启管理执行权限
-登录你帐号对应的 panel 面板
-面板左侧 > 选择 Run your own applications 标签栏 > Enabled ; 使其 Status 变成 Enabled 即可
-步骤 3. 执行一键脚本安装 x-ui 面板
-`wget -O x-ui.sh -N --no-check-certificate https://raw.githubusercontent.com/amclubs/am-serv00-x-ui/main/x-ui.sh && chmod +x x-ui.sh && ./x-ui.sh `
-注意：请确保 serv00 两个 TCP 端口开启
+### **如何安装 x-ui 面板？**
 
-脚本会自动安装 x-ui 并配置环境
-选择 1 安装 x-ui 面板
-完成后，面板默认监听在 serv00 添加的第一个端口 40402（如果你是小白同学，中途让你做选择题时，你默认回车就🆗啦）
-如何登陆 x-ui 面板？
-添加域名
-登录 x-ui 面板
-步骤 1. 添加域名
-登录你帐号对应的 panel 面板
-面板左侧 > 选择 WWW.Websites 
-复制 serv00 自带的域名如 athanaag.serv00.net，然后在删除（注意点中间的删除和软件）
-标签栏 > Add New Websites
-Domain 填入复制的域名名字 athanaag.serv00.net
-点击 Advanced settings，将 Website type 中的 PHP 换成 Proxy
-Proxy port 选择面板访问的端口 40402
-然后点击 Add 进行添加
-步骤 2. 登录 x-ui 面板
-然后访问这个域名
-输入默认用户名和密码：admin / admin（建议首次登录后立即更改密码）
-如何配置节点？
-创建节点
-创建节点
-进入 x-ui 面板后选择入站列表
-点击 “+”
-备注和端口填写在 serv00 添加的第二个端口 40401
-传输选择 “ws”
-最后点击添加就完成了
-在详细信息中点击查看，再点击复制链接
-将链接 Ctrl+V 复制到 V2rayN
-总结
-个人觉得还是使用甬哥的脚本才能让 serv00 发挥最大性能，虽说节点的速度一样，但甬哥的更有 Hysteria2 协议，且不用占用域名
+1. **申请端口**  
+   首先，登录你的账号，进入对应的面板。  
+   在左侧菜单中找到 **Port reservation**，点击进入后选择 **Add port** 标签页。  
+   然后，勾选 **Random**，点击 **+Add**。  
+   我们需要开放两个 TCP 端口，建议使用 40402 和 40401（端口号可以自行选择）。  
+   接着，切换到 **Port list** 标签页，记录下分配给你的 TCP 端口号。
+
+2. **开启管理执行权限**  
+   接下来，在面板左侧选择 **Run your own applications**，并将其状态设置为 **Enabled**，这样就开启了管理执行权限。
+
+3. **执行一键脚本安装 x-ui 面板**  
+   现在，使用以下命令来一键安装 x-ui 面板：  
+   ```
+   wget -O x-ui.sh -N --no-check-certificate https://raw.githubusercontent.com/amclubs/am-serv00-x-ui/main/x-ui.sh && chmod +x x-ui.sh && ./x-ui.sh
+   ```  
+   注意：请确保你的 Serv00 已经开启了这两个 TCP 端口。
+
+   执行脚本后，系统会自动安装并配置好 x-ui 面板。  
+   当安装完成后，x-ui 面板会默认监听在第一个端口（即 40402）。如果你是新手，遇到选择题时，按默认回车即可。
+
+### **如何登录 x-ui 面板？**
+
+1. **添加域名**  
+   首先，登录到你的面板。  
+   在左侧选择 **WWW.Websites**，复制Serv00 自带的域名（例如：athanaag.serv00.net），然后删除中间的“删除”和“软件”部分。  
+   在标签页中点击 **Add New Websites**。  
+   在 **Domain** 栏输入你复制的域名（例如：athanaag.serv00.net）。  
+   点击 **Advanced settings**，将 **Website type** 中的 PHP 改为 **Proxy**，然后在 **Proxy port** 选择你面板使用的端口（例如：40402）。  
+   完成后点击 **Add** 添加。
+
+2. **登录 x-ui 面板**  
+   现在，你可以访问刚刚添加的域名。  
+   输入默认的用户名和密码：**admin / admin**（建议首次登录后立即更改密码）。
+
+### **如何配置节点？**
+
+1. **创建节点**  
+   进入 x-ui 面板，选择 **入站列表**，点击右上角的 **+** 进行添加。  
+   填写备注和端口，使用在 Serv00 上添加的第二个端口（例如：40401）。  
+   传输协议选择 **ws**，然后点击 **添加**。  
+   在详细信息页面，点击 **查看**，然后复制链接。  
+   将复制的链接粘贴到 V2rayN 客户端即可。
+
+### **总结**
+
+个人推荐使用甬哥的脚本来实现 Serv00 的最大性能，虽然节点速度差不多，但甬哥的脚本支持 Hysteria2 协议，且不需要占用域名，效果更佳。
