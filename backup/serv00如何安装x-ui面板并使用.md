@@ -1,51 +1,38 @@
+使用 CloudFlare Worker 免费部署
 
-**Hi，大家好，我是 MH，今天我们来讲解如何在 Serv00 上安装并使用 x-ui 面板，帮你轻松提升网速，快得让你停不下来！q(≧▽≦q)**
 
-### **如何安装 x-ui 面板？**
+# 简介
 
-1. **申请端口**  
-   首先，登录你的账号，进入对应的面板。  
-   在左侧菜单中找到 **Port reservation**，点击进入后选择 **Add port** 标签页。  
-   然后，勾选 **Random**，点击 **+Add**。  
-   我们需要开放两个 TCP 端口，建议使用 40402 和 40401（端口号可以自行选择）。  
-   接着，切换到 **Port list** 标签页，记录下分配给你的 TCP 端口号。
+`CloudFlare Worker` 是 CloudFlare 的边缘计算服务。开发者可通过 JavaScript 对 CDN 进行编程，从而能灵活处理 HTTP 请求。这使得很多任务可在 CDN 上完成，无需自己的服务器参与。
 
-2. **开启管理执行权限**  
-   接下来，在面板左侧选择 **Run your own applications**，并将其状态设置为 **Enabled**，这样就开启了管理执行权限。
 
-3. **执行一键脚本安装 x-ui 面板**  
-   现在，使用以下命令来一键安装 x-ui 面板：  
-   ```
-   wget -O x-ui.sh -N --no-check-certificate https://raw.githubusercontent.com/amclubs/am-serv00-x-ui/main/x-ui.sh && chmod +x x-ui.sh && ./x-ui.sh
-   ```  
-   注意：请确保你的 Serv00 已经开启了这两个 TCP 端口。
+# 部署
 
-   执行脚本后，系统会自动安装并配置好 x-ui 面板。  
-   当安装完成后，x-ui 面板会默认监听在第一个端口（即 40402）。如果你是新手，遇到选择题时，按默认回车即可。
+首页：https://workers.cloudflare.com
 
-### **如何登录 x-ui 面板？**
+注册，登陆，`Start building`，取一个子域名，`Create a Worker`。
 
-1. **添加域名**  
-   首先，登录到你的面板。  
-   在左侧选择 **WWW.Websites**，复制Serv00 自带的域名（例如：athanaag.serv00.net），然后删除中间的“删除”和“软件”部分。  
-   在标签页中点击 **Add New Websites**。  
-   在 **Domain** 栏输入你复制的域名（例如：athanaag.serv00.net）。  
-   点击 **Advanced settings**，将 **Website type** 中的 PHP 改为 **Proxy**，然后在 **Proxy port** 选择你面板使用的端口（例如：40402）。  
-   完成后点击 **Add** 添加。
+复制 [index.js](https://raw.githubusercontent.com/EtherDream/jsproxy/master/cf-worker/index.js) 到左侧代码框，`Save and deploy`。如果正常，右侧应显示首页。
 
-2. **登录 x-ui 面板**  
-   现在，你可以访问刚刚添加的域名。  
-   输入默认的用户名和密码：**admin / admin**（建议首次登录后立即更改密码）。
+收藏地址框中的 `https://xxxx.子域名.workers.dev`，以后可直接访问。
 
-### **如何配置节点？**
 
-1. **创建节点**  
-   进入 x-ui 面板，选择 **入站列表**，点击右上角的 **+** 进行添加。  
-   填写备注和端口，使用在 Serv00 上添加的第二个端口（例如：40401）。  
-   传输协议选择 **ws**，然后点击 **添加**。  
-   在详细信息页面，点击 **查看**，然后复制链接。  
-   将复制的链接粘贴到 V2rayN 客户端即可。
+# 计费
 
-### **总结**
+后退到 `overview` 页面可参看使用情况。免费版每天有 10 万次免费请求，对于个人通常足够。
 
-个人推荐使用甬哥的脚本来实现 Serv00 的最大性能，虽然节点速度差不多，但甬哥的脚本支持 Hysteria2 协议，且不需要占用域名，效果更佳。
+如果不够用，可注册多个 Worker，在 `conf.js` 中配置多线路负载均衡。或者升级到 $5 的高级版本，每月可用 1000 万次请求（超出部分 $0.5/百万次请求）。
+
+
+# 修改配置
+
+默认情况下，静态资源从 `https://etherdream.github.io/jsproxy` 反向代理，可通过代码中 `ASSET_URL` 配置，从而可使用自定义的 `conf.js` 配置。
+
+
+# 存在问题
+
+* WebSocket 代理尚未实现
+
+* 外链限制尚未实现
+
+* 未充分测试，以后再完善
