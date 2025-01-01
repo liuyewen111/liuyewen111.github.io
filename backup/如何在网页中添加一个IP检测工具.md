@@ -181,3 +181,140 @@ browserInfoElement.textContent = `浏览器: ${browserName}, 操作系统: ${osN
     ipElement.textContent = `错误: ${error.message}`;
     locationElement.text
 ```
+
+### 完整代码
+```
+<div style="font-family: Arial, sans-serif; text-align: center; padding: 20px; border: 1px solid #ccc; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); background-color: #fff; max-width: 100%; margin: auto; box-sizing: border-box;">
+    <h1>您的IP地址信息</h1>
+    <p id="ip" style="color: gray;">正在获取您的IP地址...</p>
+    <p id="location" style="color: gray;">正在获取您的位置...</p>
+    <p id="flag" style="margin: 10px 0;"></p>
+    <p id="isp" style="color: gray;">正在获取您的ISP信息...</p>
+    <p id="vpn-status" style="color: gray;"></p>
+    <p id="speed" style="color: gray;">正在检测网络速度...</p> <!-- 网络速度 -->
+    <div id="map" style="height: 200px; width: 100%; margin-top: 20px;"></div> <!-- 显示地图 -->
+    <p id="browser-info" style="color: gray;"></p> <!-- 显示浏览器和操作系统 -->
+    <script>
+        (async function fetchIPAddressAndDetails() {
+            const ipElement = document.getElementById('ip');
+            const locationElement = document.getElementById('location');
+            const ispElement = document.getElementById('isp');
+            const flagElement = document.getElementById('flag');
+            const vpnStatusElement = document.getElementById('vpn-status');
+            const speedElement = document.getElementById('speed');
+            const mapElement = document.getElementById('map');
+            const browserInfoElement = document.getElementById('browser-info'); // 获取浏览器信息元素
+
+            try {
+                // 获取 IP 地址
+                const ipResponse = await fetch('https://api64.ipify.org?format=json');
+                if (!ipResponse.ok) {
+                    throw new Error('获取IP地址失败');
+                }
+                const ipData = await ipResponse.json();
+                ipElement.textContent = `您的IP: ${ipData.ip}`;
+
+                // 获取位置信息和 ISP 信息
+                const detailsResponse = await fetch(`https://ipapi.co/${ipData.ip}/json/`);
+                if (!detailsResponse.ok) {
+                    throw new Error('获取位置和ISP数据失败');
+                }
+                const detailsData = await detailsResponse.json();
+
+                // 显示位置详细信息
+                locationElement.textContent = `位置: ${detailsData.city}, ${detailsData.region}, ${detailsData.country_name}`;
+
+                // 显示国家国旗
+                const flagUrl = `https://flagcdn.com/w80/${detailsData.country.toLowerCase()}.png`;
+                flagElement.innerHTML = `<img src="${flagUrl}" alt="${detailsData.country_name} 国旗" style="width: 50px; height: auto;">`;
+
+                // 显示 ISP 和时区
+                ispElement.textContent = `ISP: ${detailsData.org}, 时区: ${detailsData.timezone}`;
+
+                // 检测是否为 VPN 或代理
+                const vpnCheckResponse = await fetch(`https://ipapi.co/${ipData.ip}/json/`);
+                const vpnCheckData = await vpnCheckResponse.json();
+                if (vpnCheckData.proxy === true) {
+                    vpnStatusElement.textContent = "警告: 您的网络正在使用VPN或代理!";
+                    vpnStatusElement.style.color = 'red';
+                } else {
+                    vpnStatusElement.textContent = "您的网络没有使用VPN或代理。";
+                    vpnStatusElement.style.color = 'green';
+                }
+
+                // 检测网络速度
+                const startTime = Date.now();
+                const speedTestImage = new Image();
+                speedTestImage.src = "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"; // 使用图像测试网络速度
+                speedTestImage.onload = function() {
+                    const endTime = Date.now();
+                    const duration = (endTime - startTime) / 1000;
+                    const speed = (speedTestImage.width / duration).toFixed(2);
+                    speedElement.textContent = `网络速度: ${speed} KB/s`;
+                };
+
+                // 在地图上显示位置
+                const mapScript = document.createElement("script");
+                mapScript.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyACl73G1_HhjxRBucEQ-xgWWOTLH6pZry4&callback=initMap&v=weekly`;
+                document.body.appendChild(mapScript);
+
+                window.initMap = function() {
+                    const userLocation = { lat: detailsData.latitude, lng: detailsData.longitude };
+                    const map = new google.maps.Map(mapElement, {
+                        center: userLocation,
+                        zoom: 10
+                    });
+                    new google.maps.Marker({
+                        position: userLocation,
+                        map: map,
+                        title: detailsData.city
+                    });
+                };
+
+                // 获取浏览器和操作系统信息
+                const userAgent = navigator.userAgent;
+                let browserName = "Unknown";
+                let osName = "Unknown";
+
+                // 检测浏览器
+                if (userAgent.indexOf("Chrome") > -1) {
+                    browserName = "Chrome";
+                } else if (userAgent.indexOf("Firefox") > -1) {
+                    browserName = "Firefox";
+                } else if (userAgent.indexOf("Safari") > -1) {
+                    browserName = "Safari";
+                } else if (userAgent.indexOf("Edge") > -1) {
+                    browserName = "Edge";
+                } else if (userAgent.indexOf("MSIE") > -1 || userAgent.indexOf("Trident") > -1) {
+                    browserName = "Internet Explorer";
+                }
+
+                // 检测操作系统
+                if (userAgent.indexOf("Win") > -1) {
+                    osName = "Windows";
+                } else if (userAgent.indexOf("Mac") > -1) {
+                    osName = "MacOS";
+                } else if (userAgent.indexOf("X11") > -1) {
+                    osName = "Unix";
+                } else if (userAgent.indexOf("Linux") > -1) {
+                    osName = "Linux";
+                }
+
+                // 显示浏览器和操作系统信息
+                browserInfoElement.textContent = `浏览器: ${browserName}, 操作系统: ${osName}`;
+
+            } catch (error) {
+                ipElement.textContent = `错误: ${error.message}`;
+                locationElement.textContent = '';
+                ispElement.textContent = '';
+                flagElement.textContent = '';
+                vpnStatusElement.textContent = '';
+                speedElement.textContent = '';
+                mapElement.textContent = '';
+                browserInfoElement.textContent = '';
+                ipElement.style.color = 'red';
+            }
+        })();
+    </script>
+</div>
+```
