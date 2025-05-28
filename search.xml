@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>想注册 Google 账号却不想填手机号？教你跳过手机验证并成功创建账号</title>
+      <link href="/p/google-signup-no-phone/"/>
+      <url>/p/google-signup-no-phone/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>注册 Google 账号时，很多用户会遇到“必须填写手机号验证码”的强制步骤。但其实，在某些情况下是可以<strong>跳过手机验证</strong>的。下面介绍一种目前实测有效的方法，只需使用 Edge 浏览器并配合一定的操作，即可大概率跳过手机号验证。</p><h2 id="操作流程"><a href="#操作流程" class="headerlink" title="操作流程"></a>操作流程</h2><h3 id="清除-Google-的-Cookie-数据"><a href="#清除-Google-的-Cookie-数据" class="headerlink" title="清除 Google 的 Cookie 数据"></a>清除 Google 的 Cookie 数据</h3><ol><li>打开 <strong>Microsoft Edge 浏览器</strong>，进入 <a href="https://www.google.com/">Google 首页</a>。</li><li>点击地址栏左侧的<strong>SSL 小锁图标</strong>，选择「Cookie 和站点数据」。</li><li>在弹出的窗口中，点击「Cookie（正在使用 xx 个）」。</li><li>找到并选中 <code>google.com</code> 的 Cookie，点击下方的「删除」，然后点击「完成」。</li></ol><h3 id="启动无痕浏览窗口"><a href="#启动无痕浏览窗口" class="headerlink" title="启动无痕浏览窗口"></a>启动无痕浏览窗口</h3><ol><li>新建一个无痕窗口。</li><li>访问 <a href="https://www.google.com/">Google 首页</a>。</li></ol><h3 id="开始注册账号"><a href="#开始注册账号" class="headerlink" title="开始注册账号"></a>开始注册账号</h3><ol><li>点击右上角的 <strong>Gmail</strong> → <strong>创建账号</strong> → <strong>为个人用途创建</strong>。</li><li>按照提示填写基本信息（姓名、用户名、密码等）。</li><li><strong>此时，注册流程通常会跳过手机号验证，直接进入辅助邮箱验证的步骤。</strong></li></ol><h2 id="如果仍然要求手机号验证"><a href="#如果仍然要求手机号验证" class="headerlink" title="如果仍然要求手机号验证"></a>如果仍然要求手机号验证</h2><p>如果系统仍然提示需要绑定手机号，可以尝试<strong>使用 +86 的中国大陆手机号</strong> 进行验证,在 Edge 浏览器的隐私窗口中使用 +86 的中国大陆手机号，通过验证的成功率通常还是比较高的。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Google </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Google账号 </tag>
+            
+            <tag> 注册技巧 </tag>
+            
+            <tag> 无需手机号 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>最全教程：如何在 Win10 / Win11 系统中找回激活产品密钥（含 wmic 命令失效后的替代方案）</title>
       <link href="/p/win-key-recovery/"/>
       <url>/p/win-key-recovery/</url>
