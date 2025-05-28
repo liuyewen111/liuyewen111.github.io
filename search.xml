@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>最全教程：如何在 Win10 / Win11 系统中找回激活产品密钥（含 wmic 命令失效后的替代方案）</title>
+      <link href="/p/win-key-recovery/"/>
+      <url>/p/win-key-recovery/</url>
+      
+        <content type="html"><![CDATA[<h2 id="使用-CMD-获取-OEM-密钥失效的问题"><a href="#使用-CMD-获取-OEM-密钥失效的问题" class="headerlink" title="使用 CMD 获取 OEM 密钥失效的问题"></a>使用 CMD 获取 OEM 密钥失效的问题</h2><p>在过去，我们常使用以下命令，通过命令提示符（CMD）快速查看电脑的原厂 OEM 产品密钥：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wmic path softwareLicensingService get OA3xOriginalProductKey</span><br></pre></td></tr></table></figure><p>但在 Windows 10 &#x2F; 11 的新版本中，很多用户运行后却收到如下报错提示：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#x27;wmic&#x27; 不是内部或外部命令，也不是可运行的程序或批处理文件。</span><br></pre></td></tr></table></figure><h3 id="原因分析"><a href="#原因分析" class="headerlink" title="原因分析"></a>原因分析</h3><p>经查询资料发现，从 <strong>Windows 10 21H1</strong> 开始，微软已经 <strong>弃用 wmic 工具</strong>，并在部分新版系统中 <strong>彻底移除</strong>，因此导致上述命令不再可用。</p><h2 id="使用-PowerShell-获取-OEM-密钥"><a href="#使用-PowerShell-获取-OEM-密钥" class="headerlink" title="使用 PowerShell 获取 OEM 密钥"></a>使用 PowerShell 获取 OEM 密钥</h2><h3 id="步骤："><a href="#步骤：" class="headerlink" title="步骤："></a>步骤：</h3><ol><li><p>按下 <code>Win + X</code> → 选择 <strong>Windows PowerShell（管理员）</strong> 或 <strong>终端（管理员）</strong><br>也可以在开始菜单中搜索 <code>PowerShell</code>，右键选择“以管理员身份运行”。</p></li><li><p>输入以下命令（兼容性最好）：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">(Get-WmiObject -query &#x27;select * from SoftwareLicensingService&#x27;).OA3xOriginalProductKey</span><br></pre></td></tr></table></figure></li><li><p>如果你使用的是 Windows 11 或新版 PowerShell，也可以尝试：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">(Get-CimInstance -query &#x27;select * from SoftwareLicensingService&#x27;).OA3xOriginalProductKey</span><br></pre></td></tr></table></figure></li></ol><p>以上命令将尝试从 <strong>BIOS 中读取 OEM 产品密钥</strong>（如果存在）。</p><h2 id="为什么我的电脑没有密钥显示"><a href="#为什么我的电脑没有密钥显示" class="headerlink" title="为什么我的电脑没有密钥显示"></a>为什么我的电脑没有密钥显示</h2><p>有以下几种常见原因：</p><ul><li>你的 Windows 是通过 <strong>数字许可证激活</strong>（例如通过 Microsoft 账户绑定），并 <strong>未内嵌 OEM 密钥</strong></li><li>你使用的是自装系统或装机版，没有预装原厂激活信息</li><li>BIOS 中本身就没有写入 OEM Key</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Windows技巧 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Windows密钥 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>最全教程：如何将你的 Google 账号的国家或地区修改为美国版本，以便访问和使用美区专属服务与应用</title>
+      <link href="/p/change-google-to-us/"/>
+      <url>/p/change-google-to-us/</url>
+      
+        <content type="html"><![CDATA[<h2 id="事前准备"><a href="#事前准备" class="headerlink" title="事前准备"></a>事前准备</h2><p>登录 Google 账号，然后打开 <a href="https://policies.google.com/terms">Google 服务条款</a> 页面。</p><p>页面中会显示你当前账号关联的<strong>国家&#x2F;地区版本</strong>（例如“美国”）。</p><p>若想修改此国家&#x2F;地区设置，请点击 <a href="https://policies.google.com/terms?hl=zh_CN#footnote-country-version">国家&#x2F;地区版本：</a>。</p><p>在跳转页面的侧边栏中，找到 <a href="https://policies.google.com/faq?hl=zh_CN#associated-country">“了解详情并与我们联系”</a> 的选项。</p><p>点击后向下滚动页面，找到并点击 <a href="https://policies.google.com/country-association-form?hl=zh_CN">“关联国家&#x2F;地区更改请求”</a> 的链接。</p><h2 id="填写国家-地区更改申请"><a href="#填写国家-地区更改申请" class="headerlink" title="填写国家&#x2F;地区更改申请"></a>填写国家&#x2F;地区更改申请</h2><p>进入申请页面后，按要求如实填写你希望关联的国家和地区。<br>例如想申请美国，可以填写免税州（如：俄勒冈州、特拉华州、新罕布什尔州、阿拉斯加州、蒙大拿州）。</p><p>在 “<strong>为什么这个地区应与您的账号关联？</strong>” 一项中，建议选择 “<strong>其他原因</strong>”，并参考以下模板：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">你好！</span><br><span class="line"></span><br><span class="line">最近我有一些实际需求，需要通过美国地区的邮编来购买或支付 Google 美国区的产品和服务，比如某些只能在美国区使用的订阅或应用。因为地区限制，我这边操作起来有不少障碍，影响了正常使用，也耽误了一些工作进度。</span><br><span class="line"></span><br><span class="line">为了不耽误后续的安排，希望能帮忙把我的账户区域调整到美国。这对我目前的使用确实非常重要，也不会对平台造成任何负面影响。</span><br><span class="line"></span><br><span class="line">麻烦你们帮忙处理一下，非常感谢！</span><br></pre></td></tr></table></figure><h2 id="修改其他国家版本"><a href="#修改其他国家版本" class="headerlink" title="修改其他国家版本"></a>修改其他国家版本</h2><p>如果你申请的是其他国家（如 <strong>澳大利亚</strong>），只需将模板中的 “美国” 替换为你希望设置的国家地区即可。</p><h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><ul><li>提交申请后，通常会在 <strong>一天内</strong> 收到 Google 的邮件通知，说明申请是否成功。</li><li><strong>申请无需付费</strong>，也可以 <strong>多次尝试</strong>，直到成功。<br><img src="https://images.haib.top/img/f29253f2b8394deca1cbf84ac0afcdf8.webp"></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 账号管理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Google </tag>
+            
+            <tag> 地区切换 </tag>
+            
+            <tag> 美区账号 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>超详细教程：如何使用 Windows 自带命令行工具将 PE 启动盘彻底恢复为普通可用的 U 盘存储设备</title>
+      <link href="/p/pe-to-usb/"/>
+      <url>/p/pe-to-usb/</url>
+      
+        <content type="html"><![CDATA[<h2 id="操作步骤"><a href="#操作步骤" class="headerlink" title="操作步骤"></a>操作步骤</h2><h3 id="1-插入-PE-盘，打开命令提示符"><a href="#1-插入-PE-盘，打开命令提示符" class="headerlink" title="1. 插入 PE 盘，打开命令提示符"></a>1. 插入 PE 盘，打开命令提示符</h3><p>在搜索栏输入 <code>cmd</code>，<strong>以管理员身份</strong>打开命令提示符。</p><h3 id="2-启动磁盘管理工具"><a href="#2-启动磁盘管理工具" class="headerlink" title="2. 启动磁盘管理工具"></a>2. 启动磁盘管理工具</h3><p>在命令提示符中输入以下命令，回车：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">diskpart</span><br></pre></td></tr></table></figure><h3 id="3-查看所有磁盘"><a href="#3-查看所有磁盘" class="headerlink" title="3. 查看所有磁盘"></a>3. 查看所有磁盘</h3><p>继续输入：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">list disk</span><br></pre></td></tr></table></figure><p>你会看到当前连接的所有磁盘列表。根据容量识别你的 U 盘是哪一个（比如“磁盘1”）。</p><h3 id="4-选择目标-U-盘"><a href="#4-选择目标-U-盘" class="headerlink" title="4. 选择目标 U 盘"></a>4. 选择目标 U 盘</h3><p>假设你的 U 盘是“磁盘1”，输入：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">select disk 1</span><br></pre></td></tr></table></figure><p><strong>一定要确认选对了磁盘！否则可能会误删系统盘！</strong></p><h3 id="5-清除所有分区"><a href="#5-清除所有分区" class="headerlink" title="5. 清除所有分区"></a>5. 清除所有分区</h3><p>输入：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">clean</span><br></pre></td></tr></table></figure><p>这条命令会清除 U 盘上的所有分区和引导信息，相当于“恢复出厂设置”。</p><h3 id="6-创建新的主分区"><a href="#6-创建新的主分区" class="headerlink" title="6. 创建新的主分区"></a>6. 创建新的主分区</h3><p>输入：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">create partition primary</span><br></pre></td></tr></table></figure><h3 id="7-格式化分区"><a href="#7-格式化分区" class="headerlink" title="7. 格式化分区"></a>7. 格式化分区</h3><p>你可以根据需要选择文件系统：</p><ul><li><p>格式化为 <strong>NTFS</strong>：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">format fs=ntfs quick</span><br></pre></td></tr></table></figure></li><li><p>格式化为 <strong>FAT32</strong>（兼容性更好）：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">format fs=fat32 quick</span><br></pre></td></tr></table></figure></li></ul><p>使用 <code>quick</code> 参数是“快速格式化”，速度更快，推荐使用。</p><h3 id="8-分配驱动器号"><a href="#8-分配驱动器号" class="headerlink" title="8. 分配驱动器号"></a>8. 分配驱动器号</h3><p>输入：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">assign</span><br></pre></td></tr></table></figure><p>此时，你的 U 盘就会重新出现在“此电脑”中啦！</p><h3 id="9-退出-diskpart"><a href="#9-退出-diskpart" class="headerlink" title="9. 退出 diskpart"></a>9. 退出 diskpart</h3><p>最后输入：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">exit</span><br></pre></td></tr></table></figure><p>至此，你已经成功将一个 PE 启动盘恢复为普通 U 盘。</p><p>如需后续使用 U 盘制作其他启动工具，或存储文件，即可正常使用。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> U盘工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PE盘 </tag>
+            
+            <tag> 启动盘 </tag>
+            
+            <tag> USB恢复 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>宝塔面板环境下 WordPress 的 404.php 页面不生效？一文带你定位问题并解决</title>
+      <link href="/p/btpanel-wordpress-404/"/>
+      <url>/p/btpanel-wordpress-404/</url>
+      
+        <content type="html"><![CDATA[<h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p>在使用宝塔面板搭建 WordPress 网站后，当你访问一个并不存在的页面时，浏览器返回的却是 <strong>Nginx 默认的 404 页面</strong>，而不是 WordPress 主题中的 <code>404.php</code> 模板页面。</p><p>这不仅影响用户体验，也会导致你在主题中自定义的 404 样式完全失效。</p><h2 id="问题原因"><a href="#问题原因" class="headerlink" title="问题原因"></a>问题原因</h2><p>这是由于 Nginx 配置中的以下语句：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">error_page 404 /404.html;</span><br></pre></td></tr></table></figure><p>这行配置会让 Nginx 在遇到 404 错误时，<strong>直接返回 <code>/404.html</code> 静态页面</strong>，从而<strong>绕过了 WordPress 的处理逻辑</strong>，导致 <code>404.php</code> 模板无法被加载。</p><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>只需修改对应站点的 Nginx 配置，注释掉错误页面的干预设置即可。</p><h3 id="步骤如下："><a href="#步骤如下：" class="headerlink" title="步骤如下："></a>步骤如下：</h3><ol><li><p>登录宝塔面板，进入你的网站 Nginx 配置文件路径：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/www/server/panel/vhost/nginx/你的域名.conf</span><br></pre></td></tr></table></figure></li><li><p>找到以下配置行：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">error_page 404 /404.html;</span><br></pre></td></tr></table></figure></li><li><p>将该行注释掉（前面加一个 <code>#</code>）：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#error_page 404 /404.html;</span><br></pre></td></tr></table></figure></li><li><p>保存配置文件后，返回宝塔首页 → <strong>软件商店</strong> → 找到 <strong>Nginx</strong> → 点击【重载配置】使配置生效。</p></li></ol><h2 id="清缓存"><a href="#清缓存" class="headerlink" title="清缓存"></a>清缓存</h2><p>若你使用了 CDN（如 Cloudflare）或 WordPress 缓存插件（如 WP Super Cache、W3 Total Cache），建议同时：</p><ul><li>清除浏览器缓存</li><li>清除 CDN 缓存</li><li>清除插件缓存</li></ul><p>确保最新的配置和页面正常加载。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> WordPress </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Nginx </tag>
+            
+            <tag> 宝塔 </tag>
+            
+            <tag> 404页面 </tag>
+            
+            <tag> 网站运维 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
