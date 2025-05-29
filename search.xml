@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>使用 Fastly 免费 CDN 为静态网站提速，为 Hexo 博客实现全球加速</title>
+      <link href="/p/fastly-cdn/"/>
+      <url>/p/fastly-cdn/</url>
+      
+        <content type="html"><![CDATA[<p>Fastly 是一家领先的内容分发网络（CDN）服务提供商，近年来推出了针对开发者的免费套餐，提供每月价值 50 美元的免费额度，约合 200GB 至 500GB 的流量，具体取决于所选区域的定价。该免费套餐支持全球节点，特别适合中小型网站、博客、API 服务和个人项目使用。</p><h2 id="Fastly-免费套餐"><a href="#Fastly-免费套餐" class="headerlink" title="Fastly 免费套餐"></a>Fastly 免费套餐</h2><ul><li><p><strong>每月 50 美元免费额度</strong>：根据 Fastly 的区域定价，北美和欧洲地区的流量费用约为 $0.12&#x2F;GB，亚洲地区约为 $0.19&#x2F;GB，因此免费额度可支持约 200GB 至 500GB 的流量。</p></li><li><p><strong>无需信用卡注册</strong>：仅需一个邮箱即可注册，无需绑定信用卡或进行身份验证，流量即使超了也不用担心扣费。</p></li><li><p><strong>支持 CNAME 接入</strong>：允许通过 CNAME 方式接入域名，配置灵活，适合多种部署需求。</p></li><li><p><strong>全球节点覆盖</strong>：Fastly 在全球多个地区设有节点，提供快速稳定的内容分发服务，尤其我最近发现 Fastly 在国内的速度也非常好，甚至达到了一些付费CDN的水平。<br><img src="https://images.haib.top/img/cafd06ad2052434b96123165a6e95e8a.webp"></p></li></ul><h2 id="注册与服务创建"><a href="#注册与服务创建" class="headerlink" title="注册与服务创建"></a>注册与服务创建</h2><ol><li><p><strong>注册账号</strong>：访问 <a href="https://www.fastly.com/signup/?tier=free">Fastly 注册页面</a>，填写邮箱和密码即可完成注册。</p></li><li><p><strong>创建服务</strong>：登录后，进入“Deliver”选项卡，点击“Create a CDN service”创建新的 CDN 服务。</p></li><li><p><strong>配置服务</strong>：填写服务名称、添加自有域名和源站 IP 地址，点击“Activate”激活服务。</p></li></ol><h2 id="CDN-配置"><a href="#CDN-配置" class="headerlink" title="CDN 配置"></a>CDN 配置</h2><ol><li><p><strong>克隆默认配置</strong>：在服务设置中，克隆默认配置以便进行自定义修改。</p></li><li><p><strong>修改源站设置</strong>：在“Origins”选项卡中，点击小笔图标编辑源站设置，将“Certificate hostname”、“SNI hostname”和“Override host”修改为您的网站域名，并勾选“Match the SNI hostname to the Certificate hostname”。</p></li><li><p><strong>启用 HTTP&#x2F;3</strong>：在“Settings”选项卡中，启用 HTTP&#x2F;3 支持，以提升传输性能。</p></li><li><p><strong>激活配置</strong>：完成上述设置后，点击“Activate”激活配置，使更改生效。</p></li></ol><h2 id="SSL-证书配置"><a href="#SSL-证书配置" class="headerlink" title="SSL 证书配置"></a>SSL 证书配置</h2><ol><li><p><strong>管理证书</strong>：在“Security”选项卡中，点击“Manage Certificates”。</p></li><li><p><strong>添加新证书</strong>：点击“Secure another domain”，选择使用 Fastly 提供的证书。</p></li><li><p><strong>填写域名并验证</strong>：输入您的域名，按照提示完成 DNS 验证。</p></li><li><p><strong>完成配置</strong>：验证成功后，Fastly 会为您的域名签发 SSL 证书，并提供相应的 CNAME 地址，您需要将其添加到域名的 DNS 设置中。</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Fastly </tag>
+            
+            <tag> CDN </tag>
+            
+            <tag> 网站加速 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>如何在宝塔面板中设置禁止通过 IP 访问网站，提升网站安全性</title>
       <link href="/p/bt-panel-block-ip-access/"/>
       <url>/p/bt-panel-block-ip-access/</url>
