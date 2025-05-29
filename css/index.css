@@ -1788,7 +1788,7 @@ figure.highlight pre .javascript .function {
   -ms-transition: opacity 0.4s;
   transition: opacity 0.4s;
 }
-.container .highlight-tools .macStyle {
+.container .highlight-tools .code-lang {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
   -o-box-flex: 1;
