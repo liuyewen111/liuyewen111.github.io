@@ -4,6 +4,39 @@
   
     
     <entry>
+      <title>使用ZoneABC免费域名搭建属于自己的Cloudflare优选域名</title>
+      <link href="/p/cf-cfzoneabc/"/>
+      <url>/p/cf-cfzoneabc/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>ZoneABC（zabc.net）提供的免费域名服务。<strong>每个用户可注册最多 5 个子域名，总计支持 20 条 DNS 解析记录</strong>。</p><h2 id="注册账号"><a href="#注册账号" class="headerlink" title="注册账号"></a>注册账号</h2><h3 id="进入注册页面"><a href="#进入注册页面" class="headerlink" title="进入注册页面"></a>进入注册页面</h3><ol><li><p>打开官网：<a href="https://zabc.net/">https://zabc.net</a></p></li><li><p>点击右上角「登录」→ 再点下方「没有账号立即注册」<br><img src="https://images.haib.top/img/f054161ece344e4ea0247902d1acd891.webp"></p></li><li><p>填写以下信息：</p><ul><li>昵称</li><li>邮箱</li><li>密码（需包含<strong>大写字母</strong>与<strong>特殊字符</strong>，建议不要使用 <code>#</code>）</li></ul></li><li><p>完成人机验证，点击「发送验证码」</p></li><li><p>打开邮箱，复制验证码并粘贴返回页面</p></li><li><p>再次验证，完成注册</p></li></ol><h3 id="完善个人资料以获取积分"><a href="#完善个人资料以获取积分" class="headerlink" title="完善个人资料以获取积分"></a>完善个人资料以获取积分</h3><ol><li><p>登录后进入「账户信息」，拉到下面找到「个人资料」<br><img src="https://images.haib.top/img/9d89a479179e457fbdaad09ed77e2e32.webp"></p></li><li><p>补充：</p><ul><li>姓名</li><li>电话号码</li><li>所在城市</li></ul></li><li><p>保存信息后，系统会赠送 <strong>20 个积分</strong><br><img src="https://images.haib.top/img/fdeec0af1d354995b21cfae630066a06.webp"></p><blockquote><p>注意：如果你不完善资料，初始积分为 0，无法注册部分前缀。</p></blockquote></li></ol><h3 id="积分使用"><a href="#积分使用" class="headerlink" title="积分使用"></a>积分使用</h3><h4 id="前缀长度决定是否需要积分："><a href="#前缀长度决定是否需要积分：" class="headerlink" title="前缀长度决定是否需要积分："></a>前缀长度决定是否需要积分：</h4><table><thead><tr><th>前缀长度</th><th>是否需要积分</th><th>所需积分</th></tr></thead><tbody><tr><td>7位或以上</td><td>无需积分</td><td>0</td></tr><tr><td>6位</td><td>需要积分</td><td>20</td></tr><tr><td>5位</td><td>需要积分</td><td>20</td></tr><tr><td>4位</td><td>需要积分</td><td>30</td></tr></tbody></table><p>例如：</p><ul><li><code>abcdefg.zabc.net</code>（7位）：无需积分</li><li><code>cloud.zabc.net</code>（5位）：需要 20 积分</li><li><code>cdn.zabc.net</code>（3位）：不可注册（最低为4位）</li></ul><h4 id="获取积分方法"><a href="#获取积分方法" class="headerlink" title="获取积分方法"></a>获取积分方法</h4><ul><li>完善资料：+20 积分</li><li>邀请朋友注册：每邀请 1 人，+10 积分</li></ul><h2 id="注册域名"><a href="#注册域名" class="headerlink" title="注册域名"></a>注册域名</h2><ol><li>进入后台 → 点击「域名管理」→「注册域名」</li><li>输入你想要的前缀（系统会自动补上 <code>.zabc.net</code>）</li><li>若所选前缀需要积分，系统会提示所需积分</li><li>点击「立即注册」</li></ol><blockquote><p>每个账户最多注册 5 个域名，总共最多添加 20 条 DNS 记录。</p></blockquote><h2 id="配置CF优选域名"><a href="#配置CF优选域名" class="headerlink" title="配置CF优选域名"></a>配置CF优选域名</h2><h3 id="添加并配置-DNS-记录"><a href="#添加并配置-DNS-记录" class="headerlink" title="添加并配置 DNS 记录"></a>添加并配置 DNS 记录</h3><ol><li><p>在已注册域名右侧点击「管理」<br><img src="https://images.haib.top/img/c609c87a65174731b4fb44932967c1c9.webp"></p></li><li><p>添加记录：</p><ul><li>类型：A</li><li>IP 地址：<code>104.17.239.90</code><strong>（填写CF优选IP）</strong></li><li>Cloudflare 代理：<strong>关闭（等同于CF的小黄云）</strong></li></ul></li></ol><p><img src="https://images.haib.top/img/1345f92f99d5491ead2f9cf9689a0ac5.webp"><br>3. 保存记录，几分钟后全球生效</p><p><strong>CF优选IP</strong>：<a href="https://www.wetest.vip/page/cloudflare/address_v4.html">https://www.wetest.vip/page/cloudflare/address_v4.html</a></p><h3 id="关于优选-IP-的填写建议"><a href="#关于优选-IP-的填写建议" class="headerlink" title="关于优选 IP 的填写建议"></a>关于优选 IP 的填写建议</h3><blockquote><p><strong>如果该优选域名是你自己使用的，那么你应根据当前所使用的网络运营商（如中国电信、中国移动、中国联通等）填写对应的优选 IP。</strong></p></blockquote><p>这样可以最大限度地确保你所使用的网络出口能够直连 Cloudflare 的本地优选节点，减少中转跳数，提升稳定性与访问速度。</p><h4 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h4><ul><li>如果你是<strong>中国电信</strong>用户，建议使用电信方向的 CF 优选 IP，如 <code>162.159.xxx.xxx</code></li><li>如果你是<strong>中国移动</strong>用户，建议使用移动方向的 IP，如 <code>104.16.xxx.xxx</code></li><li>如果你是<strong>中国联通</strong>用户，则填写联通方向的优选 IP</li></ul><blockquote><p>建议使用<a href="https://www.itdog.cn/http/">itdog</a>定期检测 IP 质量，选择最适合自己网络出口的 Cloudflare 节点 IP。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> ZoneABC </tag>
+            
+            <tag> 免费域名 </tag>
+            
+            <tag> 域名解析 </tag>
+            
+            <tag> CF优选 </tag>
+            
+            <tag> 优选IP </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>托管不支持 Cloudflare 的免费域名（xx.kg、qzz.io 等）到 LuaDNS</title>
       <link href="/p/free-dns/"/>
       <url>/p/free-dns/</url>
@@ -17,6 +50,16 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> 免费域名 </tag>
+            
+            <tag> 域名解析 </tag>
+            
+            <tag> LuaDNS </tag>
+            
+        </tags>
       
     </entry>
     
