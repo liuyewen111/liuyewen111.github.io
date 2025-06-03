@@ -316,6 +316,13 @@
   </url>
   
   <url>
+    <loc>https://blog.haib.top/tags/HiDNS/</loc>
+    <lastmod>2025-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.haib.top/tags/PE%E7%9B%98/</loc>
     <lastmod>2025-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -337,7 +344,7 @@
   </url>
   
   <url>
-    <loc>https://blog.haib.top/tags/HiDNS/</loc>
+    <loc>https://blog.haib.top/tags/Windows%E5%AF%86%E9%92%A5/</loc>
     <lastmod>2025-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -359,13 +366,6 @@
   
   <url>
     <loc>https://blog.haib.top/tags/HEU/</loc>
-    <lastmod>2025-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haib.top/tags/Windows%E5%AF%86%E9%92%A5/</loc>
     <lastmod>2025-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -465,14 +465,14 @@
   </url>
   
   <url>
-    <loc>https://blog.haib.top/categories/Windows/</loc>
+    <loc>https://blog.haib.top/categories/Windows%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2025-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.haib.top/categories/Windows%E6%8A%80%E5%B7%A7/</loc>
+    <loc>https://blog.haib.top/categories/Windows/</loc>
     <lastmod>2025-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
