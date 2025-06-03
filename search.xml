@@ -20,11 +20,11 @@
       
         <tags>
             
-            <tag> ZoneABC </tag>
-            
             <tag> 免费域名 </tag>
             
             <tag> 域名解析 </tag>
+            
+            <tag> ZoneABC </tag>
             
             <tag> CF优选 </tag>
             
@@ -53,11 +53,11 @@
       
         <tags>
             
+            <tag> LuaDNS </tag>
+            
             <tag> 免费域名 </tag>
             
             <tag> 域名解析 </tag>
-            
-            <tag> LuaDNS </tag>
             
         </tags>
       
@@ -111,13 +111,13 @@
       
         <tags>
             
-            <tag> Nginx </tag>
-            
             <tag> 宝塔面板 </tag>
             
             <tag> 网站安全 </tag>
             
             <tag> 防护设置 </tag>
+            
+            <tag> Nginx </tag>
             
             <tag> IP拦截 </tag>
             

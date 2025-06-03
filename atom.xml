@@ -37,11 +37,11 @@
     <category term="建站教程" scheme="https://blog.haib.top/categories/%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="ZoneABC" scheme="https://blog.haib.top/tags/ZoneABC/"/>
-    
     <category term="免费域名" scheme="https://blog.haib.top/tags/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/"/>
     
     <category term="域名解析" scheme="https://blog.haib.top/tags/%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/"/>
+    
+    <category term="ZoneABC" scheme="https://blog.haib.top/tags/ZoneABC/"/>
     
     <category term="CF优选" scheme="https://blog.haib.top/tags/CF%E4%BC%98%E9%80%89/"/>
     
@@ -71,11 +71,11 @@
     <category term="建站教程" scheme="https://blog.haib.top/categories/%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/"/>
     
     
+    <category term="LuaDNS" scheme="https://blog.haib.top/tags/LuaDNS/"/>
+    
     <category term="免费域名" scheme="https://blog.haib.top/tags/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/"/>
     
     <category term="域名解析" scheme="https://blog.haib.top/tags/%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/"/>
-    
-    <category term="LuaDNS" scheme="https://blog.haib.top/tags/LuaDNS/"/>
     
   </entry>
   
@@ -130,13 +130,13 @@
     <category term="建站教程" scheme="https://blog.haib.top/categories/%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="Nginx" scheme="https://blog.haib.top/tags/Nginx/"/>
-    
     <category term="宝塔面板" scheme="https://blog.haib.top/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
     
     <category term="网站安全" scheme="https://blog.haib.top/tags/%E7%BD%91%E7%AB%99%E5%AE%89%E5%85%A8/"/>
     
     <category term="防护设置" scheme="https://blog.haib.top/tags/%E9%98%B2%E6%8A%A4%E8%AE%BE%E7%BD%AE/"/>
+    
+    <category term="Nginx" scheme="https://blog.haib.top/tags/Nginx/"/>
     
     <category term="IP拦截" scheme="https://blog.haib.top/tags/IP%E6%8B%A6%E6%88%AA/"/>
     
