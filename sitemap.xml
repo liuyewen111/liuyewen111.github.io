@@ -204,6 +204,34 @@
   </url>
   
   <url>
+    <loc>https://blog.haib.top/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/</loc>
+    <lastmod>2025-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haib.top/tags/%E7%BD%91%E7%AB%99%E5%AE%89%E5%85%A8/</loc>
+    <lastmod>2025-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haib.top/tags/%E9%98%B2%E6%8A%A4%E8%AE%BE%E7%BD%AE/</loc>
+    <lastmod>2025-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haib.top/tags/IP%E6%8B%A6%E6%88%AA/</loc>
+    <lastmod>2025-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.haib.top/tags/ZoneABC/</loc>
     <lastmod>2025-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -239,41 +267,6 @@
   </url>
   
   <url>
-    <loc>https://blog.haib.top/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/</loc>
-    <lastmod>2025-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haib.top/tags/%E7%BD%91%E7%AB%99%E5%AE%89%E5%85%A8/</loc>
-    <lastmod>2025-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haib.top/tags/%E9%98%B2%E6%8A%A4%E8%AE%BE%E7%BD%AE/</loc>
-    <lastmod>2025-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haib.top/tags/IP%E6%8B%A6%E6%88%AA/</loc>
-    <lastmod>2025-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haib.top/tags/LuaDNS/</loc>
-    <lastmod>2025-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.haib.top/tags/Fastly/</loc>
     <lastmod>2025-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -295,21 +288,14 @@
   </url>
   
   <url>
-    <loc>https://blog.haib.top/tags/Google%E8%B4%A6%E5%8F%B7/</loc>
+    <loc>https://blog.haib.top/tags/LuaDNS/</loc>
     <lastmod>2025-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.haib.top/tags/%E6%B3%A8%E5%86%8C%E6%8A%80%E5%B7%A7/</loc>
-    <lastmod>2025-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haib.top/tags/%E6%97%A0%E9%9C%80%E6%89%8B%E6%9C%BA%E5%8F%B7/</loc>
+    <loc>https://blog.haib.top/tags/HiDNS/</loc>
     <lastmod>2025-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -337,14 +323,21 @@
   </url>
   
   <url>
-    <loc>https://blog.haib.top/tags/HiDNS/</loc>
+    <loc>https://blog.haib.top/tags/Google%E8%B4%A6%E5%8F%B7/</loc>
     <lastmod>2025-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.haib.top/tags/Windows%E5%AF%86%E9%92%A5/</loc>
+    <loc>https://blog.haib.top/tags/%E6%B3%A8%E5%86%8C%E6%8A%80%E5%B7%A7/</loc>
+    <lastmod>2025-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haib.top/tags/%E6%97%A0%E9%9C%80%E6%89%8B%E6%9C%BA%E5%8F%B7/</loc>
     <lastmod>2025-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -366,6 +359,13 @@
   
   <url>
     <loc>https://blog.haib.top/tags/HEU/</loc>
+    <lastmod>2025-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haib.top/tags/Windows%E5%AF%86%E9%92%A5/</loc>
     <lastmod>2025-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -451,13 +451,6 @@
   </url>
   
   <url>
-    <loc>https://blog.haib.top/categories/Google/</loc>
-    <lastmod>2025-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.haib.top/categories/U%E7%9B%98%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2025-06-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -465,7 +458,7 @@
   </url>
   
   <url>
-    <loc>https://blog.haib.top/categories/Windows%E6%8A%80%E5%B7%A7/</loc>
+    <loc>https://blog.haib.top/categories/Google/</loc>
     <lastmod>2025-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -473,6 +466,13 @@
   
   <url>
     <loc>https://blog.haib.top/categories/Windows/</loc>
+    <lastmod>2025-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haib.top/categories/Windows%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2025-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
