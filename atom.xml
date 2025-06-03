@@ -6,7 +6,7 @@
   <link href="https://blog.haib.top/atom.xml" rel="self"/>
   
   <link href="https://blog.haib.top/"/>
-  <updated>2025-06-02T06:05:15.677Z</updated>
+  <updated>2025-06-03T05:01:07.712Z</updated>
   <id>https://blog.haib.top/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>使用ZoneABC免费域名搭建属于自己的Cloudflare优选域名</title>
-    <link href="https://blog.haib.top/posts/a7e43a14.html"/>
-    <id>https://blog.haib.top/posts/a7e43a14.html</id>
+    <link href="https://blog.haib.top/posts/a7e43a14/"/>
+    <id>https://blog.haib.top/posts/a7e43a14/</id>
     <published>2025-06-02T05:05:10.228Z</published>
-    <updated>2025-06-02T06:05:15.677Z</updated>
+    <updated>2025-06-03T05:01:07.712Z</updated>
     
     
       
@@ -51,10 +51,10 @@
   
   <entry>
     <title>托管不支持 Cloudflare 的免费域名（xx.kg、qzz.io 等）到 LuaDNS</title>
-    <link href="https://blog.haib.top/posts/9f18a328.html"/>
-    <id>https://blog.haib.top/posts/9f18a328.html</id>
+    <link href="https://blog.haib.top/posts/9f18a328/"/>
+    <id>https://blog.haib.top/posts/9f18a328/</id>
     <published>2025-06-02T02:53:03.543Z</published>
-    <updated>2025-06-03T03:38:27.287Z</updated>
+    <updated>2025-06-03T05:01:07.683Z</updated>
     
     
       
@@ -81,10 +81,10 @@
   
   <entry>
     <title>使用 Fastly 免费 CDN 为静态网站实现全球加速，让你的网站飞起来</title>
-    <link href="https://blog.haib.top/posts/18900e4d.html"/>
-    <id>https://blog.haib.top/posts/18900e4d.html</id>
+    <link href="https://blog.haib.top/posts/18900e4d/"/>
+    <id>https://blog.haib.top/posts/18900e4d/</id>
     <published>2025-05-29T10:22:08.919Z</published>
-    <updated>2025-05-31T03:45:19.025Z</updated>
+    <updated>2025-06-03T05:01:07.688Z</updated>
     
     
       
@@ -110,10 +110,10 @@
   
   <entry>
     <title>如何在宝塔面板中设置禁止通过 IP 访问网站，提升网站安全性</title>
-    <link href="https://blog.haib.top/posts/7e7a4df6.html"/>
-    <id>https://blog.haib.top/posts/7e7a4df6.html</id>
+    <link href="https://blog.haib.top/posts/7e7a4df6/"/>
+    <id>https://blog.haib.top/posts/7e7a4df6/</id>
     <published>2025-05-29T05:31:30.861Z</published>
-    <updated>2025-05-31T03:53:57.244Z</updated>
+    <updated>2025-06-03T05:01:07.661Z</updated>
     
     
       
@@ -144,10 +144,10 @@
   
   <entry>
     <title>2025年最新版 Windows 永久激活指南（MAS + HEU 双方案）</title>
-    <link href="https://blog.haib.top/posts/694365b.html"/>
-    <id>https://blog.haib.top/posts/694365b.html</id>
+    <link href="https://blog.haib.top/posts/694365b/"/>
+    <id>https://blog.haib.top/posts/694365b/</id>
     <published>2025-05-28T06:01:50.000Z</published>
-    <updated>2025-05-31T04:01:17.918Z</updated>
+    <updated>2025-06-03T05:01:07.692Z</updated>
     
     
       
@@ -173,10 +173,10 @@
   
   <entry>
     <title>想注册 Google 账号却不想填手机号？教你跳过手机验证并成功创建账号</title>
-    <link href="https://blog.haib.top/posts/4201101f.html"/>
-    <id>https://blog.haib.top/posts/4201101f.html</id>
+    <link href="https://blog.haib.top/posts/4201101f/"/>
+    <id>https://blog.haib.top/posts/4201101f/</id>
     <published>2025-05-20T06:01:50.000Z</published>
-    <updated>2025-05-31T03:48:56.734Z</updated>
+    <updated>2025-06-03T05:01:07.720Z</updated>
     
     
       
@@ -202,10 +202,10 @@
   
   <entry>
     <title>从零开始：使用宝塔面板搭建和优化 WordPress 站点（含 Cloudflare 配置和插件配置）</title>
-    <link href="https://blog.haib.top/posts/373f9c3f.html"/>
-    <id>https://blog.haib.top/posts/373f9c3f.html</id>
+    <link href="https://blog.haib.top/posts/373f9c3f/"/>
+    <id>https://blog.haib.top/posts/373f9c3f/</id>
     <published>2025-05-18T12:30:00.000Z</published>
-    <updated>2025-05-31T03:57:56.930Z</updated>
+    <updated>2025-06-03T05:01:07.731Z</updated>
     
     
       
@@ -243,10 +243,10 @@
   
   <entry>
     <title>HiDNS 终身免费域名详细申请流程（零基础新手友好教程）</title>
-    <link href="https://blog.haib.top/posts/c8d013e2.html"/>
-    <id>https://blog.haib.top/posts/c8d013e2.html</id>
+    <link href="https://blog.haib.top/posts/c8d013e2/"/>
+    <id>https://blog.haib.top/posts/c8d013e2/</id>
     <published>2025-05-08T04:50:54.000Z</published>
-    <updated>2025-05-31T04:08:27.615Z</updated>
+    <updated>2025-06-03T05:01:07.696Z</updated>
     
     
       
@@ -270,10 +270,10 @@
   
   <entry>
     <title>最全教程：如何在 Win10 / Win11 系统中找回激活产品密钥（含 wmic 命令失效后的替代方案）</title>
-    <link href="https://blog.haib.top/posts/3c470241.html"/>
-    <id>https://blog.haib.top/posts/3c470241.html</id>
+    <link href="https://blog.haib.top/posts/3c470241/"/>
+    <id>https://blog.haib.top/posts/3c470241/</id>
     <published>2025-04-24T04:50:54.000Z</published>
-    <updated>2025-05-31T04:03:53.876Z</updated>
+    <updated>2025-06-03T05:01:07.707Z</updated>
     
     
       
@@ -295,10 +295,10 @@
   
   <entry>
     <title>最全教程：如何将你的 Google 账号的国家或地区修改为美国版本，以便访问和使用美区专属服务与应用</title>
-    <link href="https://blog.haib.top/posts/93c43235.html"/>
-    <id>https://blog.haib.top/posts/93c43235.html</id>
+    <link href="https://blog.haib.top/posts/93c43235/"/>
+    <id>https://blog.haib.top/posts/93c43235/</id>
     <published>2025-04-13T04:50:54.000Z</published>
-    <updated>2025-05-31T03:49:14.207Z</updated>
+    <updated>2025-06-03T05:01:07.679Z</updated>
     
     
       
@@ -324,10 +324,10 @@
   
   <entry>
     <title>超详细教程：如何使用 Windows 自带命令行工具将 PE 启动盘彻底恢复为普通可用的 U 盘存储设备</title>
-    <link href="https://blog.haib.top/posts/677a031e.html"/>
-    <id>https://blog.haib.top/posts/677a031e.html</id>
+    <link href="https://blog.haib.top/posts/677a031e/"/>
+    <id>https://blog.haib.top/posts/677a031e/</id>
     <published>2025-03-10T06:01:50.000Z</published>
-    <updated>2025-05-31T04:10:38.998Z</updated>
+    <updated>2025-06-03T05:01:07.702Z</updated>
     
     
       
@@ -353,10 +353,10 @@
   
   <entry>
     <title>宝塔面板环境下 WordPress 的 404.php 页面不生效？一文带你定位问题并解决</title>
-    <link href="https://blog.haib.top/posts/102d4f1e.html"/>
-    <id>https://blog.haib.top/posts/102d4f1e.html</id>
+    <link href="https://blog.haib.top/posts/102d4f1e/"/>
+    <id>https://blog.haib.top/posts/102d4f1e/</id>
     <published>2025-02-12T06:01:50.000Z</published>
-    <updated>2025-05-31T04:04:40.754Z</updated>
+    <updated>2025-06-03T05:01:07.725Z</updated>
     
     
       
