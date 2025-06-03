@@ -4,6 +4,43 @@
   
     
     <entry>
+      <title>我的开源公益项目列表 | GitHub 加速、影视站、CF 优选</title>
+      <link href="/posts/f73e0f21/"/>
+      <url>/posts/f73e0f21/</url>
+      
+        <content type="html"><![CDATA[<h1 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h1><p>大家好，我是Haib，一名正在读初中的学生。</p><p>我平时喜欢折腾各种有趣的东西，比如搭建网站、写脚本、研究网络技术等。我也是一名B站的小UP主，会分享一些简单实用的教学视频，内容包括网络技巧、工具使用、建站教程等等。</p><p>这个博客是我记录学习、分享经验的小天地。如果你也对这些内容感兴趣，欢迎常来看看，也可以在评论区或通过邮箱和我交流！</p><h1 id="我的公益项目合集"><a href="#我的公益项目合集" class="headerlink" title="我的公益项目合集"></a>我的公益项目合集</h1><p>目前我正在维护以下几个公益项目：</p><ul><li><p><strong>GitHub 文件加速服务</strong><br>访问地址：<a href="https://github.haib.top/">https://github.haib.top</a><br>用于解决 GitHub Releases、Raw 等文件下载缓慢的问题。</p></li><li><p><strong>免费影视站 LibreTV</strong><br>访问地址：<a href="https://libretv.haib.top/">https://libretv.haib.top</a><br>提供公开可用的影视资源整合，界面简洁、无广告。</p></li><li><p><strong>自建 Cloudflare 优选域名</strong><br>优选域名: <a href="https://netpick.zabc.net/">netpick.zabc.net</a><br>我会不定期测试并维护域名，提高连接质量。</p></li></ul><p>虽然我之前也是一名 B 站 UP 主，但由于换手机号时账号退出，原手机号又已注销，账号现在已经无法找回。接下来，我将主要在这个博客上继续分享我的项目和经验。</p><p><strong>B站主页：</strong><br><strong>联系邮箱：</strong> <a href="mailto:&#108;&#x69;&#117;&#x79;&#119;&#x65;&#x77;&#x65;&#x6e;&#x31;&#49;&#x31;&#64;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#108;&#x69;&#117;&#x79;&#119;&#x65;&#x77;&#x65;&#x6e;&#x31;&#49;&#x31;&#64;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></p><p>感谢你的访问，我们一起进步！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 公益服务 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> GitHub加速 </tag>
+            
+            <tag> 影视资源 </tag>
+            
+            <tag> Cloudflare </tag>
+            
+            <tag> 公益项目 </tag>
+            
+            <tag> 免费服务 </tag>
+            
+            <tag> 网络加速 </tag>
+            
+            <tag> UP主经历 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>使用ZoneABC免费域名搭建属于自己的Cloudflare优选域名</title>
       <link href="/posts/a7e43a14/"/>
       <url>/posts/a7e43a14/</url>
@@ -111,13 +148,13 @@
       
         <tags>
             
+            <tag> Nginx </tag>
+            
             <tag> 宝塔面板 </tag>
             
             <tag> 网站安全 </tag>
             
             <tag> 防护设置 </tag>
-            
-            <tag> Nginx </tag>
             
             <tag> IP拦截 </tag>
             
@@ -202,13 +239,13 @@
       
         <tags>
             
+            <tag> Cloudflare </tag>
+            
             <tag> 宝塔面板 </tag>
             
             <tag> WordPress </tag>
             
             <tag> 网站搭建 </tag>
-            
-            <tag> Cloudflare </tag>
             
             <tag> 建站教程 </tag>
             
