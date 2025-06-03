@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Haib&#39;s Blog</title>
+  <icon>http://example.com/icon.png</icon>
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2025-06-02T06:05:15.677Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Haib</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用ZoneABC免费域名搭建属于自己的Cloudflare优选域名</title>
+    <link href="http://example.com/p/cf-cfzoneabc/"/>
+    <id>http://example.com/p/cf-cfzoneabc/</id>
+    <published>2025-06-02T05:05:10.228Z</published>
+    <updated>2025-06-02T06:05:15.677Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;ZoneABC（zabc.net）提供免费的域名服务。&lt;strong&gt;每个用户可注册最多 5 个子域名，总计支持 20 条 DNS</summary>
+        
+      
+    
+    
+    
+    <category term="建站教程" scheme="http://example.com/categories/%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="ZoneABC" scheme="http://example.com/tags/ZoneABC/"/>
+    
+    <category term="免费域名" scheme="http://example.com/tags/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/"/>
+    
+    <category term="域名解析" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/"/>
+    
+    <category term="CF优选" scheme="http://example.com/tags/CF%E4%BC%98%E9%80%89/"/>
+    
+    <category term="优选IP" scheme="http://example.com/tags/%E4%BC%98%E9%80%89IP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>托管不支持 Cloudflare 的免费域名（xx.kg、qzz.io 等）到 LuaDNS</title>
+    <link href="http://example.com/p/free-dns/"/>
+    <id>http://example.com/p/free-dns/</id>
+    <published>2025-06-02T02:53:03.543Z</published>
+    <updated>2025-06-03T03:38:27.287Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;对于支持 Cloudflare 的域名，域名托管和 DNS 管理变得非常方便。&lt;/p&gt;
+&lt;p&gt;但对于不支持 Cloudflare 的域名，比如一些新出的免费域名（如</summary>
+        
+      
+    
+    
+    
+    <category term="建站教程" scheme="http://example.com/categories/%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="免费域名" scheme="http://example.com/tags/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/"/>
+    
+    <category term="域名解析" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/"/>
+    
+    <category term="LuaDNS" scheme="http://example.com/tags/LuaDNS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 Fastly 免费 CDN 为静态网站实现全球加速，让你的网站飞起来</title>
+    <link href="http://example.com/p/fastly-cdn/"/>
+    <id>http://example.com/p/fastly-cdn/</id>
+    <published>2025-05-29T10:22:08.919Z</published>
+    <updated>2025-05-31T03:45:19.025Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Fastly 是一家领先的内容分发网络（CDN）服务提供商，近年来推出了针对开发者的免费套餐，提供每月价值 50 美元的免费额度，约合 200GB 至 500GB 的流量，具体取决于所选区域的定价。该免费套餐支持全球节点，特别适合小型网站、博客、API</summary>
+        
+      
+    
+    
+    
+    <category term="建站教程" scheme="http://example.com/categories/%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Fastly" scheme="http://example.com/tags/Fastly/"/>
+    
+    <category term="CDN" scheme="http://example.com/tags/CDN/"/>
+    
+    <category term="网站加速" scheme="http://example.com/tags/%E7%BD%91%E7%AB%99%E5%8A%A0%E9%80%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何在宝塔面板中设置禁止通过 IP 访问网站，提升网站安全性</title>
+    <link href="http://example.com/p/bt-panel-block-ip-access/"/>
+    <id>http://example.com/p/bt-panel-block-ip-access/</id>
+    <published>2025-05-29T05:31:30.861Z</published>
+    <updated>2025-05-31T03:53:57.244Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;原理&quot;&gt;&lt;a href=&quot;#原理&quot; class=&quot;headerlink&quot; title=&quot;原理&quot;&gt;&lt;/a&gt;原理&lt;/h2&gt;&lt;p&gt;在 Nginx 的配置文件中使用 &lt;code&gt;if&lt;/code&gt; 判断语句是可以阻止某些非法请求的。&lt;/p&gt;
+&lt;h2 id=&quot;操作&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="建站教程" scheme="http://example.com/categories/%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Nginx" scheme="http://example.com/tags/Nginx/"/>
+    
+    <category term="宝塔面板" scheme="http://example.com/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
+    
+    <category term="网站安全" scheme="http://example.com/tags/%E7%BD%91%E7%AB%99%E5%AE%89%E5%85%A8/"/>
+    
+    <category term="防护设置" scheme="http://example.com/tags/%E9%98%B2%E6%8A%A4%E8%AE%BE%E7%BD%AE/"/>
+    
+    <category term="IP拦截" scheme="http://example.com/tags/IP%E6%8B%A6%E6%88%AA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2025年最新版 Windows 永久激活指南（MAS + HEU 双方案）</title>
+    <link href="http://example.com/p/windows-activation-guide-2025/"/>
+    <id>http://example.com/p/windows-activation-guide-2025/</id>
+    <published>2025-05-28T06:01:50.000Z</published>
+    <updated>2025-05-31T04:01:17.918Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;本篇文章为你带来 &lt;strong&gt;2025 年最新有效的 Windows 激活指南&lt;/strong&gt;，涵盖微软激活脚本（MAS）和</summary>
+        
+      
+    
+    
+    
+    <category term="Windows" scheme="http://example.com/categories/Windows/"/>
+    
+    
+    <category term="Windows激活" scheme="http://example.com/tags/Windows%E6%BF%80%E6%B4%BB/"/>
+    
+    <category term="MAS脚本" scheme="http://example.com/tags/MAS%E8%84%9A%E6%9C%AC/"/>
+    
+    <category term="HEU" scheme="http://example.com/tags/HEU/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>想注册 Google 账号却不想填手机号？教你跳过手机验证并成功创建账号</title>
+    <link href="http://example.com/p/google-signup-no-phone/"/>
+    <id>http://example.com/p/google-signup-no-phone/</id>
+    <published>2025-05-20T06:01:50.000Z</published>
+    <updated>2025-05-31T03:48:56.734Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;注册 Google</summary>
+        
+      
+    
+    
+    
+    <category term="Google" scheme="http://example.com/categories/Google/"/>
+    
+    
+    <category term="Google账号" scheme="http://example.com/tags/Google%E8%B4%A6%E5%8F%B7/"/>
+    
+    <category term="注册技巧" scheme="http://example.com/tags/%E6%B3%A8%E5%86%8C%E6%8A%80%E5%B7%A7/"/>
+    
+    <category term="无需手机号" scheme="http://example.com/tags/%E6%97%A0%E9%9C%80%E6%89%8B%E6%9C%BA%E5%8F%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>从零开始：使用宝塔面板搭建和优化 WordPress 站点（含 Cloudflare 配置和插件配置）</title>
+    <link href="http://example.com/p/wordpress-setup-bt-panel-cloudflare/"/>
+    <id>http://example.com/p/wordpress-setup-bt-panel-cloudflare/</id>
+    <published>2025-05-18T12:30:00.000Z</published>
+    <updated>2025-05-31T03:57:56.930Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;教程简介&quot;&gt;&lt;a href=&quot;#教程简介&quot; class=&quot;headerlink&quot; title=&quot;教程简介&quot;&gt;&lt;/a&gt;教程简介&lt;/h2&gt;&lt;p&gt;无需专业运维知识，2 小时内完成从服务器配置到网站上线的全流程！&lt;br&gt;本教程将带你通过 宝塔面板（BT Panel） 和</summary>
+        
+      
+    
+    
+    
+    <category term="WordPress" scheme="http://example.com/categories/WordPress/"/>
+    
+    
+    <category term="宝塔面板" scheme="http://example.com/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
+    
+    <category term="WordPress" scheme="http://example.com/tags/WordPress/"/>
+    
+    <category term="网站搭建" scheme="http://example.com/tags/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="Cloudflare" scheme="http://example.com/tags/Cloudflare/"/>
+    
+    <category term="建站教程" scheme="http://example.com/tags/%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="插件优化" scheme="http://example.com/tags/%E6%8F%92%E4%BB%B6%E4%BC%98%E5%8C%96/"/>
+    
+    <category term="CDN加速" scheme="http://example.com/tags/CDN%E5%8A%A0%E9%80%9F/"/>
+    
+    <category term="CDN缓存" scheme="http://example.com/tags/CDN%E7%BC%93%E5%AD%98/"/>
+    
+    <category term="防火墙" scheme="http://example.com/tags/%E9%98%B2%E7%81%AB%E5%A2%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HiDNS 终身免费域名详细申请流程（零基础新手友好教程）</title>
+    <link href="http://example.com/p/hidns-free-domain-guide/"/>
+    <id>http://example.com/p/hidns-free-domain-guide/</id>
+    <published>2025-05-08T04:50:54.000Z</published>
+    <updated>2025-05-31T04:08:27.615Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;HiDNS-条件说明&quot;&gt;&lt;a href=&quot;#HiDNS-条件说明&quot; class=&quot;headerlink&quot; title=&quot;HiDNS 条件说明&quot;&gt;&lt;/a&gt;HiDNS 条件说明&lt;/h2&gt;&lt;p&gt;HiDNS</summary>
+        
+      
+    
+    
+    
+    <category term="建站教程" scheme="http://example.com/categories/%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="免费域名" scheme="http://example.com/tags/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/"/>
+    
+    <category term="HiDNS" scheme="http://example.com/tags/HiDNS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>最全教程：如何在 Win10 / Win11 系统中找回激活产品密钥（含 wmic 命令失效后的替代方案）</title>
+    <link href="http://example.com/p/win-key-recovery/"/>
+    <id>http://example.com/p/win-key-recovery/</id>
+    <published>2025-04-24T04:50:54.000Z</published>
+    <updated>2025-05-31T04:03:53.876Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;使用-CMD-获取-OEM-密钥失效的问题&quot;&gt;&lt;a href=&quot;#使用-CMD-获取-OEM-密钥失效的问题&quot; class=&quot;headerlink&quot; title=&quot;使用 CMD 获取 OEM 密钥失效的问题&quot;&gt;&lt;/a&gt;使用 CMD 获取 OEM</summary>
+        
+      
+    
+    
+    
+    <category term="Windows技巧" scheme="http://example.com/categories/Windows%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="Windows密钥" scheme="http://example.com/tags/Windows%E5%AF%86%E9%92%A5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>最全教程：如何将你的 Google 账号的国家或地区修改为美国版本，以便访问和使用美区专属服务与应用</title>
+    <link href="http://example.com/p/change-google-to-us/"/>
+    <id>http://example.com/p/change-google-to-us/</id>
+    <published>2025-04-13T04:50:54.000Z</published>
+    <updated>2025-05-31T03:49:14.207Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;事前准备&quot;&gt;&lt;a href=&quot;#事前准备&quot; class=&quot;headerlink&quot; title=&quot;事前准备&quot;&gt;&lt;/a&gt;事前准备&lt;/h2&gt;&lt;p&gt;登录 Google 账号，然后打开 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="账号管理" scheme="http://example.com/categories/%E8%B4%A6%E5%8F%B7%E7%AE%A1%E7%90%86/"/>
+    
+    
+    <category term="Google" scheme="http://example.com/tags/Google/"/>
+    
+    <category term="地区切换" scheme="http://example.com/tags/%E5%9C%B0%E5%8C%BA%E5%88%87%E6%8D%A2/"/>
+    
+    <category term="美区账号" scheme="http://example.com/tags/%E7%BE%8E%E5%8C%BA%E8%B4%A6%E5%8F%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>超详细教程：如何使用 Windows 自带命令行工具将 PE 启动盘彻底恢复为普通可用的 U 盘存储设备</title>
+    <link href="http://example.com/p/pe-to-usb/"/>
+    <id>http://example.com/p/pe-to-usb/</id>
+    <published>2025-03-10T06:01:50.000Z</published>
+    <updated>2025-05-31T04:10:38.998Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;操作步骤&quot;&gt;&lt;a href=&quot;#操作步骤&quot; class=&quot;headerlink&quot; title=&quot;操作步骤&quot;&gt;&lt;/a&gt;操作步骤&lt;/h2&gt;&lt;h3 id=&quot;1-插入-PE-盘，打开命令提示符&quot;&gt;&lt;a href=&quot;#1-插入-PE-盘，打开命令提示符&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="U盘工具" scheme="http://example.com/categories/U%E7%9B%98%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="PE盘" scheme="http://example.com/tags/PE%E7%9B%98/"/>
+    
+    <category term="启动盘" scheme="http://example.com/tags/%E5%90%AF%E5%8A%A8%E7%9B%98/"/>
+    
+    <category term="USB恢复" scheme="http://example.com/tags/USB%E6%81%A2%E5%A4%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>宝塔面板环境下 WordPress 的 404.php 页面不生效？一文带你定位问题并解决</title>
+    <link href="http://example.com/p/btpanel-wordpress-404/"/>
+    <id>http://example.com/p/btpanel-wordpress-404/</id>
+    <published>2025-02-12T06:01:50.000Z</published>
+    <updated>2025-05-31T04:04:40.754Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h2&gt;&lt;p&gt;在使用宝塔面板搭建 WordPress 网站后，当你访问一个并不存在的页面时，浏览器返回的却是 &lt;strong&gt;Nginx</summary>
+        
+      
+    
+    
+    
+    <category term="WordPress" scheme="http://example.com/categories/WordPress/"/>
+    
+    
+    <category term="Nginx" scheme="http://example.com/tags/Nginx/"/>
+    
+    <category term="宝塔" scheme="http://example.com/tags/%E5%AE%9D%E5%A1%94/"/>
+    
+    <category term="404页面" scheme="http://example.com/tags/404%E9%A1%B5%E9%9D%A2/"/>
+    
+    <category term="网站运维" scheme="http://example.com/tags/%E7%BD%91%E7%AB%99%E8%BF%90%E7%BB%B4/"/>
+    
+  </entry>
+  
+</feed>
