@@ -4,35 +4,27 @@
   
     
     <entry>
-      <title>我的开源公益项目列表 | GitHub 加速、影视站、CF 优选</title>
+      <title>自用服务器脚本大全：一键测评、实用工具部署 + Hexo 命令速查指南</title>
       <link href="/posts/f73e0f21/"/>
       <url>/posts/f73e0f21/</url>
       
-        <content type="html"><![CDATA[<h1 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h1><p>大家好，我是Haib，一名正在读初中的学生。</p><p>我平时喜欢折腾各种有趣的东西，比如搭建网站、写脚本、研究网络技术等。我也是一名B站的小UP主，会分享一些简单实用的教学视频，内容包括网络技巧、工具使用、建站教程等等。</p><p>这个博客是我记录学习、分享经验的小天地。如果你也对这些内容感兴趣，欢迎常来看看，也可以在评论区或通过邮箱和我交流！</p><h1 id="我的公益项目合集"><a href="#我的公益项目合集" class="headerlink" title="我的公益项目合集"></a>我的公益项目合集</h1><p>目前我正在维护以下几个公益项目：</p><ul><li><p><strong>GitHub 文件加速服务</strong><br>访问地址：<a href="https://github.haib.top/">https://github.haib.top</a><br>用于解决 GitHub Releases、Raw 等文件下载缓慢的问题。</p></li><li><p><strong>免费影视站 LibreTV</strong><br>访问地址：<a href="https://libretv.haib.top/">https://libretv.haib.top</a><br>提供公开可用的影视资源整合，界面简洁、无广告。</p></li><li><p><strong>自建 Cloudflare 优选域名</strong><br>优选域名: <a href="https://netpick.zabc.net/">netpick.zabc.net</a><br>我会不定期测试并维护域名，提高连接质量。</p></li></ul><p>虽然我之前也是一名 B 站 UP 主，但由于换手机号时账号退出，原手机号又已注销，账号现在已经无法找回。接下来，我将主要在这个博客上继续分享我的项目和经验。</p><p><strong>B站主页：</strong><br><strong>联系邮箱：</strong> <a href="mailto:&#108;&#x69;&#117;&#x79;&#119;&#x65;&#x77;&#x65;&#x6e;&#x31;&#49;&#x31;&#64;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#108;&#x69;&#117;&#x79;&#119;&#x65;&#x77;&#x65;&#x6e;&#x31;&#49;&#x31;&#64;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></p><p>感谢你的访问，我们一起进步！</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="自用常用脚本和命令汇总"><a href="#自用常用脚本和命令汇总" class="headerlink" title="自用常用脚本和命令汇总"></a>自用常用脚本和命令汇总</h2><p>写这篇文章主要是当作备忘录</p><h2 id="VPS脚本"><a href="#VPS脚本" class="headerlink" title="VPS脚本"></a>VPS脚本</h2><h3 id="测评类"><a href="#测评类" class="headerlink" title="测评类"></a>测评类</h3><h4 id="IP质量体检脚本"><a href="#IP质量体检脚本" class="headerlink" title="IP质量体检脚本"></a>IP质量体检脚本</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bash &lt;(curl -Ls IP.Check.Place)</span><br></pre></td></tr></table></figure><h4 id="VPS融合怪服务器测评脚本"><a href="#VPS融合怪服务器测评脚本" class="headerlink" title="VPS融合怪服务器测评脚本"></a>VPS融合怪服务器测评脚本</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -L https://github.com/spiritLHLS/ecs/raw/main/ecs.sh -o ecs.sh &amp;&amp; chmod +x ecs.sh &amp;&amp; bash ecs.sh -m 1</span><br></pre></td></tr></table></figure><h4 id="VPS信息检测脚本"><a href="#VPS信息检测脚本" class="headerlink" title="VPS信息检测脚本"></a>VPS信息检测脚本</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bash &lt;(curl -Ls https://raw.githubusercontent.com/liuyewen111/vps-info/main/vps-info.sh)</span><br></pre></td></tr></table></figure><h3 id="工具类"><a href="#工具类" class="headerlink" title="工具类"></a>工具类</h3><h4 id="多系统一键清理脚本"><a href="#多系统一键清理脚本" class="headerlink" title="多系统一键清理脚本"></a>多系统一键清理脚本</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -fsSL https://raw.githubusercontent.com/liuyewen111/vps-cleaner/main/clean.sh | bash</span><br></pre></td></tr></table></figure><h4 id="科技lion脚本工具箱"><a href="#科技lion脚本工具箱" class="headerlink" title="科技lion脚本工具箱"></a>科技lion脚本工具箱</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bash &lt;(curl -sL kejilion.sh)</span><br></pre></td></tr></table></figure><h4 id="哪吒探针-Agent-彻底清理脚本"><a href="#哪吒探针-Agent-彻底清理脚本" class="headerlink" title="哪吒探针 Agent 彻底清理脚本"></a>哪吒探针 Agent 彻底清理脚本</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bash &lt;(curl -s https://raw.githubusercontent.com/everett7623/Nezha-cleaner/main/nezha-agent-cleaner.sh)</span><br></pre></td></tr></table></figure><h2 id="Hexo命令"><a href="#Hexo命令" class="headerlink" title="Hexo命令"></a>Hexo命令</h2><h3 id="本地预览"><a href="#本地预览" class="headerlink" title="本地预览"></a>本地预览</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo cl; hexo s</span><br></pre></td></tr></table></figure><h3 id="推送更新上线"><a href="#推送更新上线" class="headerlink" title="推送更新上线"></a>推送更新上线</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo cl; hexo g; hexo d</span><br></pre></td></tr></table></figure><h3 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;文章标题&quot;</span><br></pre></td></tr></table></figure><h3 id="新建页面"><a href="#新建页面" class="headerlink" title="新建页面"></a>新建页面</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page &quot;页面标题&quot;</span><br></pre></td></tr></table></figure><h3 id="查看-Hexo-当前版本"><a href="#查看-Hexo-当前版本" class="headerlink" title="查看 Hexo 当前版本"></a>查看 Hexo 当前版本</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo version</span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>
           
-          <category> 公益服务 </category>
+          <category> 服务器运维 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> GitHub加速 </tag>
+            <tag> VPS脚本 </tag>
             
-            <tag> 影视资源 </tag>
+            <tag> 一键部署 </tag>
             
-            <tag> Cloudflare </tag>
-            
-            <tag> 公益项目 </tag>
-            
-            <tag> 免费服务 </tag>
-            
-            <tag> 网络加速 </tag>
-            
-            <tag> UP主经历 </tag>
+            <tag> Hexo命令 </tag>
             
         </tags>
       
@@ -148,13 +140,13 @@
       
         <tags>
             
-            <tag> Nginx </tag>
-            
             <tag> 宝塔面板 </tag>
             
             <tag> 网站安全 </tag>
             
             <tag> 防护设置 </tag>
+            
+            <tag> Nginx </tag>
             
             <tag> IP拦截 </tag>
             
@@ -239,13 +231,13 @@
       
         <tags>
             
-            <tag> Cloudflare </tag>
-            
             <tag> 宝塔面板 </tag>
             
             <tag> WordPress </tag>
             
             <tag> 网站搭建 </tag>
+            
+            <tag> Cloudflare </tag>
             
             <tag> 建站教程 </tag>
             

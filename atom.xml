@@ -6,7 +6,7 @@
   <link href="https://blog.haib.top/atom.xml" rel="self"/>
   
   <link href="https://blog.haib.top/"/>
-  <updated>2025-06-03T15:29:34.499Z</updated>
+  <updated>2025-06-04T04:56:51.307Z</updated>
   <id>https://blog.haib.top/</id>
   
   <author>
@@ -17,39 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>我的开源公益项目列表 | GitHub 加速、影视站、CF 优选</title>
+    <title>自用服务器脚本大全：一键测评、实用工具部署 + Hexo 命令速查指南</title>
     <link href="https://blog.haib.top/posts/f73e0f21/"/>
     <id>https://blog.haib.top/posts/f73e0f21/</id>
     <published>2025-06-03T15:09:59.613Z</published>
-    <updated>2025-06-03T15:29:34.499Z</updated>
+    <updated>2025-06-04T04:56:51.307Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;关于我&quot;&gt;&lt;a href=&quot;#关于我&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;自用常用脚本和命令汇总&quot;&gt;&lt;a href=&quot;#自用常用脚本和命令汇总&quot; class=&quot;headerlink&quot; title=&quot;自用常用脚本和命令汇总&quot;&gt;&lt;/a&gt;自用常用脚本和命令汇总&lt;/h2&gt;&lt;p&gt;写这篇文章主要是当作备忘录&lt;/p&gt;
+&lt;h2</summary>
         
       
     
     
     
-    <category term="公益服务" scheme="https://blog.haib.top/categories/%E5%85%AC%E7%9B%8A%E6%9C%8D%E5%8A%A1/"/>
+    <category term="服务器运维" scheme="https://blog.haib.top/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%BF%90%E7%BB%B4/"/>
     
     
-    <category term="GitHub加速" scheme="https://blog.haib.top/tags/GitHub%E5%8A%A0%E9%80%9F/"/>
+    <category term="VPS脚本" scheme="https://blog.haib.top/tags/VPS%E8%84%9A%E6%9C%AC/"/>
     
-    <category term="影视资源" scheme="https://blog.haib.top/tags/%E5%BD%B1%E8%A7%86%E8%B5%84%E6%BA%90/"/>
+    <category term="一键部署" scheme="https://blog.haib.top/tags/%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2/"/>
     
-    <category term="Cloudflare" scheme="https://blog.haib.top/tags/Cloudflare/"/>
-    
-    <category term="公益项目" scheme="https://blog.haib.top/tags/%E5%85%AC%E7%9B%8A%E9%A1%B9%E7%9B%AE/"/>
-    
-    <category term="免费服务" scheme="https://blog.haib.top/tags/%E5%85%8D%E8%B4%B9%E6%9C%8D%E5%8A%A1/"/>
-    
-    <category term="网络加速" scheme="https://blog.haib.top/tags/%E7%BD%91%E7%BB%9C%E5%8A%A0%E9%80%9F/"/>
-    
-    <category term="UP主经历" scheme="https://blog.haib.top/tags/UP%E4%B8%BB%E7%BB%8F%E5%8E%86/"/>
+    <category term="Hexo命令" scheme="https://blog.haib.top/tags/Hexo%E5%91%BD%E4%BB%A4/"/>
     
   </entry>
   
@@ -58,7 +51,7 @@
     <link href="https://blog.haib.top/posts/a7e43a14/"/>
     <id>https://blog.haib.top/posts/a7e43a14/</id>
     <published>2025-06-02T05:05:10.228Z</published>
-    <updated>2025-06-03T13:11:54.136Z</updated>
+    <updated>2025-06-04T03:25:40.865Z</updated>
     
     
       
@@ -91,7 +84,7 @@
     <link href="https://blog.haib.top/posts/9f18a328/"/>
     <id>https://blog.haib.top/posts/9f18a328/</id>
     <published>2025-06-02T02:53:03.543Z</published>
-    <updated>2025-06-03T13:12:15.145Z</updated>
+    <updated>2025-06-04T03:26:50.185Z</updated>
     
     
       
@@ -121,7 +114,7 @@
     <link href="https://blog.haib.top/posts/18900e4d/"/>
     <id>https://blog.haib.top/posts/18900e4d/</id>
     <published>2025-05-29T10:22:08.919Z</published>
-    <updated>2025-06-03T13:12:09.708Z</updated>
+    <updated>2025-06-04T03:26:12.342Z</updated>
     
     
       
@@ -150,7 +143,7 @@
     <link href="https://blog.haib.top/posts/7e7a4df6/"/>
     <id>https://blog.haib.top/posts/7e7a4df6/</id>
     <published>2025-05-29T05:31:30.861Z</published>
-    <updated>2025-06-03T13:11:35.861Z</updated>
+    <updated>2025-06-04T03:24:48.168Z</updated>
     
     
       
@@ -167,13 +160,13 @@
     <category term="建站教程" scheme="https://blog.haib.top/categories/%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="Nginx" scheme="https://blog.haib.top/tags/Nginx/"/>
-    
     <category term="宝塔面板" scheme="https://blog.haib.top/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
     
     <category term="网站安全" scheme="https://blog.haib.top/tags/%E7%BD%91%E7%AB%99%E5%AE%89%E5%85%A8/"/>
     
     <category term="防护设置" scheme="https://blog.haib.top/tags/%E9%98%B2%E6%8A%A4%E8%AE%BE%E7%BD%AE/"/>
+    
+    <category term="Nginx" scheme="https://blog.haib.top/tags/Nginx/"/>
     
     <category term="IP拦截" scheme="https://blog.haib.top/tags/IP%E6%8B%A6%E6%88%AA/"/>
     
@@ -184,7 +177,7 @@
     <link href="https://blog.haib.top/posts/694365b/"/>
     <id>https://blog.haib.top/posts/694365b/</id>
     <published>2025-05-28T06:01:50.000Z</published>
-    <updated>2025-06-03T13:13:04.086Z</updated>
+    <updated>2025-06-04T03:30:55.281Z</updated>
     
     
       
@@ -213,7 +206,7 @@
     <link href="https://blog.haib.top/posts/4201101f/"/>
     <id>https://blog.haib.top/posts/4201101f/</id>
     <published>2025-05-20T06:01:50.000Z</published>
-    <updated>2025-06-03T13:12:23.243Z</updated>
+    <updated>2025-06-04T03:27:40.502Z</updated>
     
     
       
@@ -242,7 +235,7 @@
     <link href="https://blog.haib.top/posts/373f9c3f/"/>
     <id>https://blog.haib.top/posts/373f9c3f/</id>
     <published>2025-05-18T12:30:00.000Z</published>
-    <updated>2025-06-03T13:13:16.071Z</updated>
+    <updated>2025-06-04T03:31:15.772Z</updated>
     
     
       
@@ -258,13 +251,13 @@
     <category term="WordPress" scheme="https://blog.haib.top/categories/WordPress/"/>
     
     
-    <category term="Cloudflare" scheme="https://blog.haib.top/tags/Cloudflare/"/>
-    
     <category term="宝塔面板" scheme="https://blog.haib.top/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
     
     <category term="WordPress" scheme="https://blog.haib.top/tags/WordPress/"/>
     
     <category term="网站搭建" scheme="https://blog.haib.top/tags/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="Cloudflare" scheme="https://blog.haib.top/tags/Cloudflare/"/>
     
     <category term="建站教程" scheme="https://blog.haib.top/tags/%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/"/>
     
@@ -283,7 +276,7 @@
     <link href="https://blog.haib.top/posts/c8d013e2/"/>
     <id>https://blog.haib.top/posts/c8d013e2/</id>
     <published>2025-05-08T04:50:54.000Z</published>
-    <updated>2025-06-03T13:12:30.873Z</updated>
+    <updated>2025-06-04T03:27:56.197Z</updated>
     
     
       
@@ -310,7 +303,7 @@
     <link href="https://blog.haib.top/posts/3c470241/"/>
     <id>https://blog.haib.top/posts/3c470241/</id>
     <published>2025-04-24T04:50:54.000Z</published>
-    <updated>2025-06-03T13:12:50.866Z</updated>
+    <updated>2025-06-04T03:30:17.942Z</updated>
     
     
       
@@ -335,7 +328,7 @@
     <link href="https://blog.haib.top/posts/93c43235/"/>
     <id>https://blog.haib.top/posts/93c43235/</id>
     <published>2025-04-13T04:50:54.000Z</published>
-    <updated>2025-06-03T13:12:02.508Z</updated>
+    <updated>2025-06-04T03:26:00.808Z</updated>
     
     
       
@@ -364,7 +357,7 @@
     <link href="https://blog.haib.top/posts/677a031e/"/>
     <id>https://blog.haib.top/posts/677a031e/</id>
     <published>2025-03-10T06:01:50.000Z</published>
-    <updated>2025-06-03T13:12:38.154Z</updated>
+    <updated>2025-06-04T03:29:28.162Z</updated>
     
     
       
@@ -393,7 +386,7 @@
     <link href="https://blog.haib.top/posts/102d4f1e/"/>
     <id>https://blog.haib.top/posts/102d4f1e/</id>
     <published>2025-02-12T06:01:50.000Z</published>
-    <updated>2025-06-03T13:11:43.581Z</updated>
+    <updated>2025-06-04T03:25:24.154Z</updated>
     
     
       
