@@ -6,7 +6,7 @@
   <link href="https://blog.haib.top/atom.xml" rel="self"/>
   
   <link href="https://blog.haib.top/"/>
-  <updated>2025-06-04T04:56:51.307Z</updated>
+  <updated>2025-06-06T11:27:08.067Z</updated>
   <id>https://blog.haib.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.haib.top/posts/f73e0f21/"/>
     <id>https://blog.haib.top/posts/f73e0f21/</id>
     <published>2025-06-03T15:09:59.613Z</published>
-    <updated>2025-06-04T04:56:51.307Z</updated>
+    <updated>2025-06-06T11:27:08.067Z</updated>
     
     
       
@@ -29,7 +29,7 @@
         
         
     <summary type="html">&lt;h2 id=&quot;自用常用脚本和命令汇总&quot;&gt;&lt;a href=&quot;#自用常用脚本和命令汇总&quot; class=&quot;headerlink&quot; title=&quot;自用常用脚本和命令汇总&quot;&gt;&lt;/a&gt;自用常用脚本和命令汇总&lt;/h2&gt;&lt;p&gt;写这篇文章主要是当作备忘录&lt;/p&gt;
-&lt;h2</summary>
+&lt;figure</summary>
         
       
     
@@ -67,11 +67,11 @@
     <category term="建站教程" scheme="https://blog.haib.top/categories/%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="ZoneABC" scheme="https://blog.haib.top/tags/ZoneABC/"/>
-    
     <category term="免费域名" scheme="https://blog.haib.top/tags/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/"/>
     
     <category term="域名解析" scheme="https://blog.haib.top/tags/%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/"/>
+    
+    <category term="ZoneABC" scheme="https://blog.haib.top/tags/ZoneABC/"/>
     
     <category term="CF优选" scheme="https://blog.haib.top/tags/CF%E4%BC%98%E9%80%89/"/>
     
@@ -101,11 +101,11 @@
     <category term="建站教程" scheme="https://blog.haib.top/categories/%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/"/>
     
     
+    <category term="LuaDNS" scheme="https://blog.haib.top/tags/LuaDNS/"/>
+    
     <category term="免费域名" scheme="https://blog.haib.top/tags/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/"/>
     
     <category term="域名解析" scheme="https://blog.haib.top/tags/%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/"/>
-    
-    <category term="LuaDNS" scheme="https://blog.haib.top/tags/LuaDNS/"/>
     
   </entry>
   
@@ -357,14 +357,14 @@
     <link href="https://blog.haib.top/posts/677a031e/"/>
     <id>https://blog.haib.top/posts/677a031e/</id>
     <published>2025-03-10T06:01:50.000Z</published>
-    <updated>2025-06-04T03:29:28.162Z</updated>
+    <updated>2025-06-06T11:08:08.815Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;操作步骤&quot;&gt;&lt;a href=&quot;#操作步骤&quot; class=&quot;headerlink&quot; title=&quot;操作步骤&quot;&gt;&lt;/a&gt;操作步骤&lt;/h2&gt;&lt;h3 id=&quot;1-插入-PE-盘，打开命令提示符&quot;&gt;&lt;a href=&quot;#1-插入-PE-盘，打开命令提示符&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;操作步骤&quot;&gt;&lt;a href=&quot;#操作步骤&quot; class=&quot;headerlink&quot; title=&quot;操作步骤&quot;&gt;&lt;/a&gt;操作步骤&lt;/h2&gt;&lt;h3 id=&quot;插入-PE-盘，打开命令提示符&quot;&gt;&lt;a href=&quot;#插入-PE-盘，打开命令提示符&quot;</summary>
         
       
     
